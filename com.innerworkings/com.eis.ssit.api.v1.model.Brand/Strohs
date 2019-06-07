@@ -1,0 +1,33 @@
+{
+  "refName" : "Strohs",
+  "refKey" : "23bc51f06edba3d5b45e3197e497ccda",
+  "displayName" : "Strohs",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Strohs" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520526121469,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "23be988a-151d-4e08-ba6f-345978b658c8",
+  "representative" : null,
+  "logo" : null,
+  "brandGroups" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

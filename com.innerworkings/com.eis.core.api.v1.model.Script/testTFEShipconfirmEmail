@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "testTFEShipconfirmEmail",
+  "refKey" : "f65e1c4324a38a55cc8b69df7c634dc0",
+  "displayName" : "testTFEShipconfirmEmail",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1516303342657,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1516383162331,
+    "updateUser" : "Admin Innerworkings"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "9c25bb79-5bde-4761-9599-c3fcce4cd723",
+  "script" : "function testShipConfirmEmail() {\r\n    var primaryContactEmail = null;\r\n\r\n    if (primaryContactEmail === null) {\r\n        primaryContactEmail = \"pramnarain@enspirecommerce.com\";\r\n    }\r\n    \r\n    var shipment = shipmentService.getById('03fa0b86-21d9-4818-adc0-64ecf5ee238a');\r\n    var order = salesOrderService.getById('7c9ffa53-53f6-4763-bb28-d57cd70cce24');\r\n\r\n\r\n    var velocityContext = new org.apache.velocity.VelocityContext();\r\n    //velocityContext.put(\"fileName\", fileName);\r\n    velocityContext.put(\"shipment\", shipment);\r\n    velocityContext.put(\"order\", order);\r\n    velocityContext.put(\"description\", subject);\r\n    var body = scriptUtils.buildMessageFromVelocityTemplate(\"integration/emailTemplates/tfe/shipment_confirmation.vm\", velocityContext);\r\n    var subject = \"Order Shipment Notification & Tracking Link - \"+order.getHeader().getOrderNumber();\r\n    var mailbox = scriptUtils.getMailbox(\"Test-ShipConfirm-Email\");\r\n    scriptUtils.createMailboxEntry(mailbox, body, \"ShipmentConfirm-\" + shipment.getShipmentNumber() + \".html\", subject, primaryContactEmail, \"alerts@saddlecreek.com\", null, null, true);\r\n    \r\n}\r\n\r\ntestShipConfirmEmail();",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "testTFEShipconfirmEmail",
+    "refKey" : "f65e1c4324a38a55cc8b69df7c634dc0",
+    "displayName" : "testTFEShipconfirmEmail",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "testTFEShipconfirmEmail" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1516302924349,
+      "createUser" : "Admin Innerworkings",
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,49 +56,40 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "83de2be8-c7c3-460d-ad00-fc5ac2a3a671",
     "inputs" : {
       "name" : null,
-      "attributes" : {
-        "body" : {
-          "id" : null,
-          "refName" : "body",
-          "type" : "Object",
-          "value" : null,
-          "className" : null,
-          "selectValues" : [ ],
-          "selectValuesType" : null,
-          "selectValuesKey" : null,
-          "defaultValue" : null,
-          "required" : false,
-          "inheritable" : false,
-          "hidden" : false,
-          "displayOnFrontend" : true,
-          "label" : "body",
-          "description" : null
-        }
-      }
+      "attributes" : { }
     },
     "outputs" : {
       "name" : null,
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
-        "type" : "scriptInputVariable",
-        "name" : "body",
+      "salesOrderService" : {
+        "type" : "serviceBean",
+        "name" : "salesOrderService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "salesOrderService",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "scriptUtils" : {
+        "type" : "javaBean",
+        "name" : "scriptUtils",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
+        "parameterName" : null,
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "shipmentService" : {
+        "type" : "serviceBean",
+        "name" : "shipmentService",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : "shipmentService",
         "parameterName" : null,
         "parameters" : { }
       }
@@ -244,10 +235,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "testTFEShipconfirmEmail",
+    "refId" : "83de2be8-c7c3-460d-ad00-fc5ac2a3a671",
+    "refKey" : "f65e1c4324a38a55cc8b69df7c634dc0",
+    "displayName" : "testTFEShipconfirmEmail",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

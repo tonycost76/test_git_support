@@ -1,0 +1,33 @@
+{
+  "refName" : "Colt 45",
+  "refKey" : "7d8cf7b3c45aae27477b7ee39894420c",
+  "displayName" : "Colt 45",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Colt 45" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520526146006,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "97d80a49-f530-4634-9b60-9c885474ab58",
+  "representative" : null,
+  "logo" : null,
+  "brandGroups" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

@@ -1,0 +1,33 @@
+{
+  "refName" : "Sutter Home",
+  "refKey" : "6c92a35e5e8b7b320b38d59eb836935e",
+  "displayName" : "Sutter Home",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Sutter Home" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1522256171525,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "f0e874bb-1075-4a81-ac87-ea27dcd41071",
+  "representative" : null,
+  "logo" : null,
+  "brandGroups" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

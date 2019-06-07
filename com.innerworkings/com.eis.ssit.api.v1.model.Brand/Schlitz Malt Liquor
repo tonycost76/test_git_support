@@ -1,0 +1,33 @@
+{
+  "refName" : "Schlitz Malt Liquor",
+  "refKey" : "973262e0e531f2136fa596365e576fa7",
+  "displayName" : "Schlitz Malt Liquor",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Schlitz Malt Liquor" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520526177376,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "2318a5f0-53dc-4519-9e33-173c1f733a4c",
+  "representative" : null,
+  "logo" : null,
+  "brandGroups" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

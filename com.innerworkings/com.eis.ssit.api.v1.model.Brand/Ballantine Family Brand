@@ -1,0 +1,33 @@
+{
+  "refName" : "Ballantine Family Brand",
+  "refKey" : "400788fff9420c48091ef61a1d8ad6e5",
+  "displayName" : "Ballantine Family Brand",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Ballantine Family Brand" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520526301996,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "2ac09c53-6580-4d59-85d7-5296518094d2",
+  "representative" : null,
+  "logo" : null,
+  "brandGroups" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

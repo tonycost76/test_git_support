@@ -1,0 +1,60 @@
+{
+  "refName" : "66c09b51c11c1cd775da15f2236fd04e",
+  "refKey" : "bfd02ae9fef2520e55a2d46ae3af14b1",
+  "displayName" : "bergcatpag",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "bergcatpag" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545274549306,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1545274609763,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "attributeSet" : {
+    "refName" : null,
+    "attributes" : { }
+  },
+  "imageRef" : null,
+  "imageUrl" : null,
+  "galleryImageRefs" : [ ],
+  "galleryImageUrls" : [ ],
+  "id" : "01b40ef8-b9f4-4108-b275-c90ea8f310a2",
+  "systemId" : null,
+  "sourceId" : null,
+  "catalogTitle" : "bergcatpag",
+  "owningUserProfileId" : "admin@innerworkings.com",
+  "effectiveStartDate" : null,
+  "effectiveEndDate" : null,
+  "active" : true,
+  "categories" : {
+    "5d44a69963f1fb46d92e80cd86f91c3d" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "5d44a69963f1fb46d92e80cd86f91c3d",
+      "displayName" : "BergPAG",
+      "systemId" : null,
+      "categories" : [ ]
+    }
+  },
+  "dataDomains" : [ "com.innerworkings" ]
+}

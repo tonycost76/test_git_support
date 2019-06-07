@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "releaseExpectedReceipt",
+  "refKey" : "099df9923ec62ff3ea94b5d826e4ebeb",
+  "displayName" : "releaseExpectedReceipt",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,9 +10,9 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
+    "creationTs" : 1533527092698,
     "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
+    "updateTs" : 1533569329904,
     "updateUser" : "Tony Costanzo"
   },
   "uiactions" : [ ],
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "8bf1297c-c810-46a4-869f-6ea0480370ef",
+  "script" : " \nexpectedReceipt.setStatus(com.eis.ssit.api.v1.model.ExpectedReceiptStatus.RELEASED);\n\nexpectedReceipt = expectedReceiptService.save(expectedReceipt);\nvar site = expectedReceipt.getExpectedLocation();\nvar mailboxName = site.getExpectedReceiptsMailboxRefName();\nif(mailboxName === null) {\n        mailboxName = 'Expected-Receipts';\n    \n}\nvar mailbox = scriptUtils.getMailbox(mailboxName);\nscriptUtils.createObjectXMLMailboxEntry(mailbox,expectedReceipt, \"ExpectedReceipt-\"+expectedReceipt.getExpectedReceiptNumber()+\"-RMA-\"+expectedReceipt.getRma().getRmaNumber(), \"receipts@thk.com\", \"receipts@thk.com\");\n\n\nexpectedReceipt;",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "releaseExpectedReceipt",
+    "refKey" : "099df9923ec62ff3ea94b5d826e4ebeb",
+    "displayName" : "releaseExpectedReceipt",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "releaseExpectedReceipt" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
+      "creationTs" : 1533527000400,
       "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,13 +56,13 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "71854768-1b6c-4c1e-a618-72a67af19748",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "expectedReceipt" : {
           "id" : null,
-          "refName" : "body",
+          "refName" : "expectedReceipt",
           "type" : "Object",
           "value" : null,
           "className" : null,
@@ -74,7 +74,7 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "expectedReceipt",
           "description" : null
         }
       }
@@ -84,21 +84,39 @@
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
+      "expectedReceipt" : {
         "type" : "scriptInputVariable",
-        "name" : "body",
+        "name" : "expectedReceipt",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
+        "parameterName" : "expectedReceipt",
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "expectedReceiptService" : {
+        "type" : "serviceBean",
+        "name" : "expectedReceiptService",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : "expectedReceiptService",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "scriptUtils" : {
+        "type" : "javaBean",
+        "name" : "scriptUtils",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "siteService" : {
+        "type" : "serviceBean",
+        "name" : "siteService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "siteService",
         "parameterName" : null,
         "parameters" : { }
       }
@@ -111,7 +129,7 @@
   "functionType" : "utility",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +262,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "releaseExpectedReceipt",
+    "refId" : "71854768-1b6c-4c1e-a618-72a67af19748",
+    "refKey" : "099df9923ec62ff3ea94b5d826e4ebeb",
+    "displayName" : "releaseExpectedReceipt",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

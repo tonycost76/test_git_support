@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "salesOrderAttributeSets",
+  "refKey" : "67fddeaa52f4b29994af52d409725e35",
+  "displayName" : "salesOrderAttributeSets",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1518816481273,
+    "createUser" : "Praveen Subba Rao",
+    "updateTs" : 1519922153812,
+    "updateUser" : "Praveen Subba Rao"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "5a3f4643-a017-47b8-9cfa-1330d461ed7c",
+  "script" : "var referenceData = salesOrder.getReferenceData();\nif(salesOrder.getDataDomains().contains(\"com.innerworkings.stoli\")) {\n    var softeonIdFound = false;\n    var customerIdFound = false;\n    for(var reference in Iterator(referenceData)) {\n        if(reference && \"SofteonId\".equals(reference.getName())) {\n            softeonIdFound = true;\n        }\n        if(reference && \"CustomerId\".equals(reference.getName())) {\n            customerIdFound = true;\n        }\n    }\n\n    if(!softeonIdFound) {\n        var ref1 = new com.eis.core.api.v1.model.Reference();\n        ref1.setName(\"SofteonId\");\n        ref1.setType(\"String\");\n        ref1.setValue(\"IWSTO\")\n        referenceData.add(ref1);\n    }\n\n    if(!customerIdFound) {\n        var ref2 = new com.eis.core.api.v1.model.Reference();\n        ref2.setName(\"CustomerId\");\n        ref2.setType(\"String\");\n        ref2.setValue(\"59528\")\n        referenceData.add(ref2);\n    }\n    \n    var billFirstName = salesOrder.getHeader().getBillToContactInfo().getFirstName();\n    var billLastName = salesOrder.getHeader().getBillToContactInfo().getLastName();\n    if(billFirstName !== null && billLastName !== null) {\n        var name = billFirstName + \" \" + billLastName;\n        salesOrder.getHeader().getBillToContactInfo().setName(name.toUpperCase());\n    }\n}",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "salesOrderAttributeSets",
+    "refKey" : "67fddeaa52f4b29994af52d409725e35",
+    "displayName" : "salesOrderAttributeSets",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "salesOrderAttributeSets" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1518816010018,
+      "createUser" : "Praveen Subba Rao",
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,13 +56,13 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "e9e82880-7027-48c1-b154-b3556a5e33dc",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "salesOrder" : {
           "id" : null,
-          "refName" : "body",
+          "refName" : "salesOrder",
           "type" : "Object",
           "value" : null,
           "className" : null,
@@ -74,7 +74,7 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "salesOrder",
           "description" : null
         }
       }
@@ -83,35 +83,16 @@
       "name" : null,
       "attributes" : { }
     },
-    "scriptContextObjects" : {
-      "body" : {
-        "type" : "scriptInputVariable",
-        "name" : "body",
-        "methodName" : null,
-        "modelName" : null,
-        "serviceName" : null,
-        "parameterName" : "body",
-        "parameters" : { }
-      },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
-        "methodName" : null,
-        "modelName" : null,
-        "serviceName" : "encryptionService",
-        "parameterName" : null,
-        "parameters" : { }
-      }
-    },
-    "type" : "GENERIC",
-    "eventType" : null,
+    "scriptContextObjects" : { },
+    "type" : "EVENT_LISTENER",
+    "eventType" : "SalesOrder:Before:Create",
     "scheduledActionTriggerRef" : null,
     "dataDomains" : [ "com.innerworkings" ]
   },
-  "functionType" : "utility",
+  "functionType" : "createSalesOrder",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +225,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "salesOrderAttributeSets",
+    "refId" : "e9e82880-7027-48c1-b154-b3556a5e33dc",
+    "refKey" : "67fddeaa52f4b29994af52d409725e35",
+    "displayName" : "salesOrderAttributeSets",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

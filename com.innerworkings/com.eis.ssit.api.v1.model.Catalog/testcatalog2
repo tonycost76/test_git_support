@@ -1,0 +1,60 @@
+{
+  "refName" : "testcatalog2",
+  "refKey" : "68f4b4c92597f938a02beb88b6fe53e7",
+  "displayName" : "testCatalog2",
+  "schemaVersion" : null,
+  "version" : "",
+  "current" : false,
+  "txId" : "",
+  "keywords" : [ "", "testCatalog2" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1534199022989,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "attributeSet" : {
+    "refName" : null,
+    "attributes" : { }
+  },
+  "imageRef" : "",
+  "imageUrl" : null,
+  "galleryImageRefs" : [ ],
+  "galleryImageUrls" : [ ],
+  "id" : "da7fee46-4921-481f-bb69-52fb7bcef7f3",
+  "systemId" : null,
+  "sourceId" : null,
+  "catalogTitle" : null,
+  "owningUserProfileId" : "",
+  "effectiveStartDate" : null,
+  "effectiveEndDate" : null,
+  "active" : true,
+  "categories" : {
+    "General" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "General",
+      "displayName" : "General",
+      "systemId" : null,
+      "categories" : [ ]
+    }
+  },
+  "dataDomains" : [ "com.innerworkings" ]
+}

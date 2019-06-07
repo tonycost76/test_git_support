@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "sku-sendUpdateToWMS",
+  "refKey" : "6657310a607cb472046489e251b9d684",
+  "displayName" : "sku-sendUpdateToWMS",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1512064596110,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1521891542928,
+    "updateUser" : "Admin Innerworkings"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "5c651a53-2771-4269-9e60-028e8a8f1f40",
+  "script" : "var log = org.slf4j.LoggerFactory.getLogger(\"sku-sendUpdateToWMS:\");\r\nvar mapper = new com.eis.json.EnvisionJacksonJaxbXMLMapper();\r\nmapper.enable(com.fasterxml.jackson.databind.SerializationFeature.INDENT_OUTPUT);\r\nmapper.setSerializationInclusion(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_EMPTY);\r\n\r\nfunction isBlank(value) {\r\n    if (value === null || value === undefined || value === '') {\r\n        return true;\r\n    }\r\n\r\n    return false;\r\n}\r\n\r\nfunction sendProductToMailbox(sku) {\r\n  \r\n    var xml = mapper.writeValueAsString(sku);\r\n    var mailbox = scriptUtils.getMailbox(\"INWK-Item-FromOMS\");\r\n    scriptUtils.createMailboxEntry(mailbox, xml, \"SkuUpdate\" + sku.getSkuId()+\".xml\", \"SkuUpdate\" + sku.getSkuId(),\"wms@innerworkings.com\", \"oms@innerworkings.com\",null, null, true);\r\n\r\n}\r\n\r\nfunction removeReferences(references,keys) {\r\n    var refList = new java.util.ArrayList();\r\n    // NOTE - in prior releases there was no name, so type was essentially used\r\n    // as the name field - adding name in here so it can be used in both versions\r\n    for (var x = 0; x < references.size(); x++) {\r\n        var reference = references.get(x);\r\n        if (keys.indexOf(reference.getName()) === -1) {\r\n            refList.add(reference);\r\n            java.lang.System.out.println(\"Adding:\"+reference.getName());\r\n        }\r\n    }\r\n\r\n    return refList;\r\n}\r\n\r\nfunction updateInventoryPoolEntryWithShopifyId(sku) {\r\n    \r\n    \r\n    var shopifyProductId = scriptUtils.getReferenceValueFromReferences(sku.getReferenceData(), \"shopifyProductId\");\r\n    \r\n    var shopifyItemInventoryId = scriptUtils.getReferenceValueFromReferences(sku.getReferenceData(), \"shopifyInventoryItemId\");\r\n    \r\n    var dataDomains = new java.util.ArrayList();\r\n    dataDomains.add(\"com.innerworkings\");\r\n    if(!isBlank(shopifyProductId)) {\r\n        var inventoryPoolEntries = inventoryPoolEntryService.getList(0,100,\"skuId:\"+sku.getSkuId(),null,null, dataDomains);\r\n        var iterator = inventoryPoolEntries.iterator();\r\n        while(iterator.hasNext()) {\r\n            var ipe = iterator.next();\r\n            \r\n            var keys = new java.util.ArrayList();\r\n            keys.add(\"shopifyInventoryItemId\");\r\n            keys.add(\"shopifyProductId\");\r\n            removeReferences(ipe.getReferenceData(), keys);\r\n            var updatedReferences = removeReferences(ipe.getReferenceData(), keys);\r\n            ipe.getReferenceData().clear();\r\n            ipe.getReferenceData().addAll(updatedReferences);\r\n            var ipShopifyProductId = scriptUtils.getReferenceValueFromReferences(ipe.getReferenceData(), \"shopifyProductId\");\r\n            var updateIPE = false;\r\n            \r\n            if(isBlank(ipShopifyProductId) && !isBlank(shopifyProductId)) {\r\n                var shopifyReference = new com.eis.core.api.v1.model.Reference();\r\n                shopifyReference.setName(\"shopifyProductId\");\r\n                shopifyReference.setValue(shopifyProductId);\r\n                shopifyReference.setType(\"String\");\r\n                ipe.getReferenceData().add(shopifyReference);\r\n                updateIPE = true;\r\n            }\r\n            \r\n            var shopifyInventoryItemId = scriptUtils.getReferenceValueFromReferences(ipe.getReferenceData(), \"shopifyInventoryItemId\");\r\n                    \r\n            if(isBlank(shopifyInventoryItemId) && !isBlank(shopifyItemInventoryId)) {\r\n                var shopifyInventoryReference = new com.eis.core.api.v1.model.Reference();\r\n                shopifyInventoryReference.setName(\"shopifyInventoryItemId\");\r\n                shopifyInventoryReference.setValue(shopifyItemInventoryId );\r\n                shopifyInventoryReference.setType(\"String\");\r\n                ipe.getReferenceData().add(shopifyInventoryReference);\r\n                updateIPE = true;\r\n            }\r\n            \r\n            var shopifySiteId = scriptUtils.getReferenceValueFromReferences(ipe.getReferenceData(), \"shopifySiteId\");\r\n                        \r\n            if(isBlank(shopifySiteId)) {\r\n            \r\n                var shopifySiteIdReference = new com.eis.core.api.v1.model.Reference();\r\n                shopifySiteIdReference.setName(\"shopifySiteId\");\r\n                shopifySiteIdReference.setValue(shopifySiteId);\r\n                shopifySiteIdReference.setType(\"String\");\r\n                ipe.getReferenceData().add(shopifySiteIdReference);\r\n                updateIPE = true;\r\n            }\r\n             \r\n            if(updateIPE) {\r\n                ipe = inventoryPoolEntryService.save(ipe);\r\n            }\r\n        }\r\n    \r\n    }\r\n\r\n}\r\n\r\n\r\n\r\nsendProductToMailbox(sku);\r\nupdateInventoryPoolEntryWithShopifyId(sku);",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "sku-sendUpdateToWMS",
+    "refKey" : "6657310a607cb472046489e251b9d684",
+    "displayName" : "sku-sendUpdateToWMS",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "sku-sendUpdateToWMS" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1512064556642,
+      "createUser" : "Admin Innerworkings",
+      "updateTs" : 1521064143922,
+      "updateUser" : "Admin Innerworkings"
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,13 +56,13 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "70be5219-a403-4140-a0e2-7e48d93263b2",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "sku" : {
           "id" : null,
-          "refName" : "body",
+          "refName" : "sku",
           "type" : "Object",
           "value" : null,
           "className" : null,
@@ -74,7 +74,7 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "sku",
           "description" : null
         }
       }
@@ -84,34 +84,34 @@
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
-        "type" : "scriptInputVariable",
-        "name" : "body",
+      "inventoryPoolEntryService" : {
+        "type" : "serviceBean",
+        "name" : "inventoryPoolEntryService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "inventoryPoolEntryService",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "scriptUtils" : {
+        "type" : "javaBean",
+        "name" : "scriptUtils",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
-        "parameters" : { }
-      },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
-        "methodName" : null,
-        "modelName" : null,
-        "serviceName" : "encryptionService",
         "parameterName" : null,
         "parameters" : { }
       }
     },
-    "type" : "GENERIC",
-    "eventType" : null,
+    "type" : "EVENT_LISTENER",
+    "eventType" : "Sku:After:Update",
     "scheduledActionTriggerRef" : null,
     "dataDomains" : [ "com.innerworkings" ]
   },
-  "functionType" : "utility",
+  "functionType" : "eventListener",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +244,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "sku-sendUpdateToWMS",
+    "refId" : "70be5219-a403-4140-a0e2-7e48d93263b2",
+    "refKey" : "6657310a607cb472046489e251b9d684",
+    "displayName" : "sku-sendUpdateToWMS",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

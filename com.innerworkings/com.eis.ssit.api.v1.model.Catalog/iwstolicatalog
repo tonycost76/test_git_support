@@ -1,0 +1,135 @@
+{
+  "refName" : "iwstolicatalog",
+  "refKey" : "80e74869253cd0097e4572d9b94b3118",
+  "displayName" : "IWStoliCatalog",
+  "schemaVersion" : null,
+  "version" : "",
+  "current" : false,
+  "txId" : "",
+  "keywords" : [ "", "IWStoliCatalog" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1518190021719,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1547835713180,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "attributeSet" : {
+    "refName" : null,
+    "attributes" : { }
+  },
+  "imageRef" : "",
+  "imageUrl" : null,
+  "galleryImageRefs" : [ ],
+  "galleryImageUrls" : [ ],
+  "id" : "16bed1cc-5aed-4da8-a141-1cc53bd46aa7",
+  "systemId" : null,
+  "sourceId" : null,
+  "catalogTitle" : null,
+  "owningUserProfileId" : "",
+  "effectiveStartDate" : null,
+  "effectiveEndDate" : null,
+  "active" : true,
+  "categories" : {
+    "GENERAL" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "GENERAL",
+      "displayName" : "GENERAL",
+      "systemId" : null,
+      "categories" : [ {
+        "attributeSet" : {
+          "refName" : null,
+          "attributes" : { }
+        },
+        "imageRef" : null,
+        "galleryImageRefs" : [ ],
+        "tags" : [ ],
+        "refName" : "Test1",
+        "displayName" : "Test1",
+        "systemId" : null,
+        "categories" : [ {
+          "attributeSet" : {
+            "refName" : null,
+            "attributes" : { }
+          },
+          "imageRef" : null,
+          "galleryImageRefs" : [ ],
+          "tags" : [ ],
+          "refName" : "Test3",
+          "displayName" : "Test3",
+          "systemId" : null,
+          "categories" : [ ]
+        } ]
+      }, {
+        "attributeSet" : {
+          "refName" : null,
+          "attributes" : { }
+        },
+        "imageRef" : null,
+        "galleryImageRefs" : [ ],
+        "tags" : [ ],
+        "refName" : "Test2",
+        "displayName" : "Test2",
+        "systemId" : null,
+        "categories" : [ ]
+      } ]
+    },
+    "General" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "General",
+      "displayName" : "General",
+      "systemId" : null,
+      "categories" : [ ]
+    },
+    "Test" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "Test",
+      "displayName" : "Test",
+      "systemId" : null,
+      "categories" : [ ]
+    },
+    "general" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "general",
+      "displayName" : "general",
+      "systemId" : null,
+      "categories" : [ ]
+    }
+  },
+  "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli" ]
+}

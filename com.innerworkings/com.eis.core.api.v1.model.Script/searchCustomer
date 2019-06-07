@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "searchCustomer",
+  "refKey" : "c5c80ce0545ff25b8682ea5f8b0706da",
+  "displayName" : "searchCustomer",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1529689912991,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1529690897365,
+    "updateUser" : "Admin Innerworkings"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "fff5cb7d-40b4-45de-9651-1e5ef26b6d71",
+  "script" : "var customer = customerService.getById('02231eaf-a511-4e46-97d9-a52d24a0f0f3');\ncustomer;",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "customerSearch",
+    "refKey" : "cb905ea0be22e8cedba2346ea470d5ae",
+    "displayName" : "customerSearch",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "customerSearch" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1529689823354,
+      "createUser" : "Admin Innerworkings",
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,13 +56,13 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "3fd6b267-106e-4668-af79-5c82fd619956",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "billToContactInfo" : {
           "id" : null,
-          "refName" : "body",
+          "refName" : "billToContactInfo",
           "type" : "Object",
           "value" : null,
           "className" : null,
@@ -74,7 +74,58 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "billToContactInfo",
+          "description" : null
+        },
+        "buyerContactInfo" : {
+          "id" : null,
+          "refName" : "buyerContactInfo",
+          "type" : "Object",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "buyerContactInfo",
+          "description" : null
+        },
+        "dataDomains" : {
+          "id" : null,
+          "refName" : "dataDomains",
+          "type" : "Object",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "dataDomains",
+          "description" : null
+        },
+        "shipToContacts" : {
+          "id" : null,
+          "refName" : "shipToContacts",
+          "type" : "Object",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "shipToContacts",
           "description" : null
         }
       }
@@ -84,22 +135,49 @@
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
+      "billToContactInfo" : {
         "type" : "scriptInputVariable",
-        "name" : "body",
+        "name" : "billToContactInfo",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
+        "parameterName" : "billToContactInfo",
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "buyerContactInfo" : {
+        "type" : "scriptInputVariable",
+        "name" : "buyerContactInfo",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : null,
+        "parameterName" : "buyerContactInfo",
+        "parameters" : { }
+      },
+      "customerService" : {
+        "type" : "serviceBean",
+        "name" : "customerService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "customerService",
         "parameterName" : null,
+        "parameters" : { }
+      },
+      "dataDomains" : {
+        "type" : "scriptInputVariable",
+        "name" : "dataDomains",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "dataDomains",
+        "parameters" : { }
+      },
+      "shipToContacts" : {
+        "type" : "scriptInputVariable",
+        "name" : "shipToContacts",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "shipToContacts",
         "parameters" : { }
       }
     },
@@ -108,10 +186,10 @@
     "scheduledActionTriggerRef" : null,
     "dataDomains" : [ "com.innerworkings" ]
   },
-  "functionType" : "utility",
+  "functionType" : "customerCreatorUtil-searchForCloseCustomerMatch",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +322,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "customerSearch",
+    "refId" : "3fd6b267-106e-4668-af79-5c82fd619956",
+    "refKey" : "cb905ea0be22e8cedba2346ea470d5ae",
+    "displayName" : "customerSearch",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

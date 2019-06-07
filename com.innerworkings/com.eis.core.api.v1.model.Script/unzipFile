@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "unzipFile",
+  "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
+  "displayName" : "unzipFile",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,9 +10,9 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
+    "creationTs" : 1555505691883,
     "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
+    "updateTs" : 1555508607224,
     "updateUser" : "Tony Costanzo"
   },
   "uiactions" : [ ],
@@ -25,8 +25,8 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "ca26217a-56f7-4c4e-83a8-16e7b810264d",
+  "script" : "var zis = new java.util.zip.ZipInputStream(body.getInputStream());\r\nvar zipEntry = zis.getNextEntry();\r\nif (zipEntry !== null) {\r\n\r\n    body = zis;\r\n}\r\nbody;",
   "compensateScript" : null,
   "language" : null,
   "type" : {

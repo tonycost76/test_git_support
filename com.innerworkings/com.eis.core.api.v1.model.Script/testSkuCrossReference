@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "testSkuCrossReference",
+  "refKey" : "cd3c9bc02abf62ccbfd07f29be33673f",
+  "displayName" : "testSkuCrossReference",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,9 +10,9 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
+    "creationTs" : 1547504231453,
     "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
+    "updateTs" : 1547504285949,
     "updateUser" : "Tony Costanzo"
   },
   "uiactions" : [ ],
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "60792f2a-958e-4487-bd5c-2a19ac8f0d47",
+  "script" : "\n\nvar dataDomains = new java.util.ArrayList();\ndataDomains.add(\"com.innerworkings\");\nvar replacements = skuCrossReferenceDAO.getReplacementSkusForSkuId(\"TC-0001\", null, null, null,new java.util.Date(), com.eis.ssit.api.v1.model.SkuCrossReferenceType.Substitution,  dataDomains);\n\n\nvar keySetIterator = replacements.keySet().iterator();\nwhile(keySetIterator.hasNext()) {\n    java.lang.System.out.println(\"SKU:\"+keySetIterator.next());\n    \n}",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "testSkuCrossReference",
+    "refKey" : "cd3c9bc02abf62ccbfd07f29be33673f",
+    "displayName" : "testSkuCrossReference",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "testSkuCrossReference" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
+      "creationTs" : 1547503995458,
       "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,49 +56,22 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "9bf65607-a489-42f5-9700-631316a59e39",
     "inputs" : {
       "name" : null,
-      "attributes" : {
-        "body" : {
-          "id" : null,
-          "refName" : "body",
-          "type" : "Object",
-          "value" : null,
-          "className" : null,
-          "selectValues" : [ ],
-          "selectValuesType" : null,
-          "selectValuesKey" : null,
-          "defaultValue" : null,
-          "required" : false,
-          "inheritable" : false,
-          "hidden" : false,
-          "displayOnFrontend" : true,
-          "label" : "body",
-          "description" : null
-        }
-      }
+      "attributes" : { }
     },
     "outputs" : {
       "name" : null,
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
-        "type" : "scriptInputVariable",
-        "name" : "body",
+      "skuCrossReferenceDAO" : {
+        "type" : "daoBean",
+        "name" : "skuCrossReferenceDAO",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : null,
-        "parameterName" : "body",
-        "parameters" : { }
-      },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
-        "methodName" : null,
-        "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : "skuCrossReferenceDAO",
         "parameterName" : null,
         "parameters" : { }
       }
@@ -244,10 +217,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "testSkuCrossReference",
+    "refId" : "9bf65607-a489-42f5-9700-631316a59e39",
+    "refKey" : "cd3c9bc02abf62ccbfd07f29be33673f",
+    "displayName" : "testSkuCrossReference",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

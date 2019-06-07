@@ -1,0 +1,60 @@
+{
+  "refName" : "testmarketplace",
+  "refKey" : "6187930972631f7ca35a0b1e152999ca",
+  "displayName" : "testMarketPlace",
+  "schemaVersion" : null,
+  "version" : "",
+  "current" : false,
+  "txId" : "",
+  "keywords" : [ "", "testMarketPlace" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1531110156534,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1531110232375,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "attributeSet" : {
+    "refName" : null,
+    "attributes" : { }
+  },
+  "imageRef" : "",
+  "imageUrl" : null,
+  "galleryImageRefs" : [ ],
+  "galleryImageUrls" : [ ],
+  "id" : "982e8487-ee29-431b-8c51-ce30b7530abd",
+  "systemId" : null,
+  "sourceId" : null,
+  "catalogTitle" : null,
+  "owningUserProfileId" : "",
+  "effectiveStartDate" : null,
+  "effectiveEndDate" : null,
+  "active" : true,
+  "categories" : {
+    "undefined" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "undefined",
+      "displayName" : "General",
+      "systemId" : null,
+      "categories" : [ ]
+    }
+  },
+  "dataDomains" : [ "com.innerworkings" ]
+}

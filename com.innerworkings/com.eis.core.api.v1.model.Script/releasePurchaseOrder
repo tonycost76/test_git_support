@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "releasePurchaseOrder",
+  "refKey" : "6614fbb5f5a79f5025e5ffa7e2e83b87",
+  "displayName" : "releasePurchaseOrder",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1520435298037,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1520436099320,
+    "updateUser" : "Admin Innerworkings"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "3c40859c-f112-4858-bc63-d4af1ad255a9",
+  "script" : "function releaseOrder(order) {\n    \n    order.getHeader().setStatus(com.eis.ssit.api.v1.model.PurchaseOrderStatus.RELEASED);\n    var companyName = order.getHeader().getSellerContactInfo().getCompanyName();\n    purchaseOrderService.save(order);\n    var mailbox = scriptUtils.getMailbox(\"INWK\"+\"-PurchaseOrder-Out-Internal\");\n    \n    scriptUtils.createObjectXMLMailboxEntry(mailbox,order, \"Purchase Order:\"+order.getHeader().getPurchaseOrderNumber(), \"po@innerworkings.com\", \"po@saddlecreek.com\");\n    \n    return order;\n}\njava.lang.System.out.println(\"Purchase Order Id:\"+purchaseOrderId);\nvar order = purchaseOrderService.getById(purchaseOrderId);\nreleaseOrder(order);",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "releasePurchaseOrder",
+    "refKey" : "6614fbb5f5a79f5025e5ffa7e2e83b87",
+    "displayName" : "releasePurchaseOrder",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "releasePurchaseOrder" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1520435156343,
+      "createUser" : "Admin Innerworkings",
+      "updateTs" : null,
+      "updateUser" : null
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,14 +56,14 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "eee1ed17-9a00-4ef4-9c28-0af1531190c8",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "purchaseOrderId" : {
           "id" : null,
-          "refName" : "body",
-          "type" : "Object",
+          "refName" : "purchaseOrderId",
+          "type" : "String",
           "value" : null,
           "className" : null,
           "selectValues" : [ ],
@@ -74,7 +74,7 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "purchaseOrderId",
           "description" : null
         }
       }
@@ -84,21 +84,39 @@
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
+      "purchaseOrderId" : {
         "type" : "scriptInputVariable",
-        "name" : "body",
+        "name" : "purchaseOrderId",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
+        "parameterName" : "purchaseOrderId",
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "purchaseOrderService" : {
+        "type" : "serviceBean",
+        "name" : "purchaseOrderService",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : "purchaseOrderService",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "scriptUtils" : {
+        "type" : "javaBean",
+        "name" : "scriptUtils",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "taskHelper" : {
+        "type" : "javaBean",
+        "name" : "taskHelper",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
         "parameterName" : null,
         "parameters" : { }
       }
@@ -108,10 +126,10 @@
     "scheduledActionTriggerRef" : null,
     "dataDomains" : [ "com.innerworkings" ]
   },
-  "functionType" : "utility",
+  "functionType" : "releasePurchaseOrder",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +262,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "releasePurchaseOrder",
+    "refId" : "eee1ed17-9a00-4ef4-9c28-0af1531190c8",
+    "refKey" : "6614fbb5f5a79f5025e5ffa7e2e83b87",
+    "displayName" : "releasePurchaseOrder",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

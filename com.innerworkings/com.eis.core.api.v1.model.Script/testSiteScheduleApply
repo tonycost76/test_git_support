@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "testSiteScheduleApply",
+  "refKey" : "32918937a239f22bdf20dcfd82c184af",
+  "displayName" : "testSiteScheduleApply",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
+    "creationTs" : 1555286476403,
     "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "updateTs" : null,
+    "updateUser" : null
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,25 +25,25 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "cebde470-19f8-4c51-90d9-5fd3937255ad",
+  "script" : "var requestClazz = new java.lang.Class.forName(\"com.eis.core.api.v1.model.SiteCalendarUpdateRequest\");\nvar localDateType = new java.lang.Class.forName(\"java.time.LocalDate\");\nvar localTimeType = new java.lang.Class.forName(\"java.time.LocalTime\");\n\n\n\nvar gsonBuilder = new com.google.gson.GsonBuilder();\ngsonBuilder.registerTypeAdapter(localDateType, new com.eis.json.LocalDateDeserializer());\ngsonBuilder.registerTypeAdapter(localTimeType, new com.eis.json.LocalTimeDeserializer());\nvar gson = gsonBuilder.create();\nvar siteCalUpdateReq = gson.fromJson(body, requestClazz);\n\nvar siteCalUpdateResp = siteService.applySchedules(siteCalUpdateReq);",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "test-siteScheduleApply",
+    "refKey" : "53d20a19ec9fdfd57781dfbd551f9d4f",
+    "displayName" : "test-siteScheduleApply",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "test-siteScheduleApply" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
+      "creationTs" : 1555286371593,
       "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
+      "updateTs" : 1555286746706,
       "updateUser" : "Tony Costanzo"
     },
     "uiactions" : [ ],
@@ -56,14 +56,14 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "f246fbba-8e35-4213-b108-a17a1d5f5964",
     "inputs" : {
       "name" : null,
       "attributes" : {
         "body" : {
           "id" : null,
           "refName" : "body",
-          "type" : "Object",
+          "type" : "String",
           "value" : null,
           "className" : null,
           "selectValues" : [ ],
@@ -93,12 +93,21 @@
         "parameterName" : "body",
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "siteDAO" : {
+        "type" : "daoBean",
+        "name" : "siteDAO",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : "siteDAO",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "siteService" : {
+        "type" : "serviceBean",
+        "name" : "siteService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "siteService",
         "parameterName" : null,
         "parameters" : { }
       }
@@ -244,10 +253,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "test-siteScheduleApply",
+    "refId" : "f246fbba-8e35-4213-b108-a17a1d5f5964",
+    "refKey" : "53d20a19ec9fdfd57781dfbd551f9d4f",
+    "displayName" : "test-siteScheduleApply",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,

@@ -1,0 +1,60 @@
+{
+  "refName" : "iwpabstcatalog",
+  "refKey" : "7473b47b8bfeba95ad07b2d2b84f8155",
+  "displayName" : "IWPabstCatalog",
+  "schemaVersion" : null,
+  "version" : "",
+  "current" : false,
+  "txId" : "",
+  "keywords" : [ "", "IWPabstCatalog" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1519753584815,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "attributeSet" : {
+    "refName" : null,
+    "attributes" : { }
+  },
+  "imageRef" : "",
+  "imageUrl" : null,
+  "galleryImageRefs" : [ ],
+  "galleryImageUrls" : [ ],
+  "id" : "1edef1a2-439e-42a3-9bfa-e1c006072fe2",
+  "systemId" : null,
+  "sourceId" : null,
+  "catalogTitle" : null,
+  "owningUserProfileId" : "",
+  "effectiveStartDate" : null,
+  "effectiveEndDate" : null,
+  "active" : true,
+  "categories" : {
+    "GENERAL" : {
+      "attributeSet" : {
+        "refName" : null,
+        "attributes" : { }
+      },
+      "imageRef" : null,
+      "galleryImageRefs" : [ ],
+      "tags" : [ ],
+      "refName" : "GENERAL",
+      "displayName" : "GENERAL",
+      "systemId" : null,
+      "categories" : [ ]
+    }
+  },
+  "dataDomains" : [ "com.innerworkings" ]
+}

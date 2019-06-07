@@ -1,7 +1,7 @@
 {
-  "refName" : "encrypt",
-  "refKey" : "1c5753800a6d32723ca1b6251428cadf",
-  "displayName" : "encrypt",
+  "refName" : "skuImporter",
+  "refKey" : "7f2460208d77dc08df9ce96569fa677c",
+  "displayName" : "skuImporter",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
@@ -10,10 +10,10 @@
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
-    "creationTs" : 1559935039039,
-    "createUser" : "Tony Costanzo",
-    "updateTs" : 1559936894059,
-    "updateUser" : "Tony Costanzo"
+    "creationTs" : 1509139924575,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1510947301082,
+    "updateUser" : "Admin Innerworkings"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -25,26 +25,26 @@
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
-  "id" : "19c6344d-ff4f-4549-b4ca-6b7a4d1eb306",
-  "script" : "var encValue = encryptionService.encryptText(\"ba07dc8f0a805915c5f04bfb954e0488c5df00bd\",\"GitConfiguration\");\nencValue;",
+  "id" : "e3ab25c2-d9e5-48d0-8ec5-b56d9b9c427e",
+  "script" : "function createTask(errorName, description, taskQueue) {\r\n\r\n    var dataDomains = new java.util.ArrayList();\r\n    dataDomains.add(\"com.innerworkings\");\r\n\r\n    var task = new com.eis.core.api.v1.model.Task();\r\n    task.setId(java.lang.String.valueOf(java.util.UUID.randomUUID()));\r\n    task.setDisplayName(errorName);\r\n    task.setStatus(\"Assigned\");\r\n    task.setRefName(errorName + \"-\" + java.lang.System.nanoTime());\r\n    description = description + \"\\n\\n\\n\";\r\n    task.setDescription(description);\r\n    task.getDataDomains().addAll(dataDomains);\r\n\r\n    task.setAssignmentDate(new Date());\r\n    var dueDate = java.util.Calendar.getInstance();\r\n    dueDate.add(java.util.Calendar.DATE, 3);\r\n    task.setDueDate(dueDate.getTime());\r\n    task.setDateCreated(new Date());\r\n    task.setLabel(errorName);\r\n    task.setOwnerName(\"Admin Innerworkings\");\r\n    task.setTaskQueueRefName(taskQueue);\r\n\r\n    taskService.save(task);\r\n}\r\n\r\n\r\nvar modelImportResult = saddleCreekSkuImporter.importCSV(importResults,inputStream,fileName,updateObjects, userId, \"com.innerworkings\",fileSystemEntryRef);\r\n\r\nif (modelImportResult !== null) {\r\n    \r\n    if (modelImportResult.getErrorCount() > 0) {\r\n    \r\n        createTask(\"Errors in sku import\", fileName, \"sku-import-queue\");\r\n    }\r\n} ",
   "compensateScript" : null,
   "language" : null,
   "type" : {
-    "refName" : "unzipFile",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "productImporter",
+    "refKey" : "65ba4a98909b02ff0c40c7c1c59f107c",
+    "displayName" : "productImporter",
     "schemaVersion" : null,
     "version" : null,
     "current" : true,
     "txId" : null,
-    "keywords" : [ "unzipFile" ],
+    "keywords" : [ "productImporter" ],
     "tags" : [ ],
     "hashSum" : null,
     "auditInfo" : {
-      "creationTs" : 1555505536317,
-      "createUser" : "Tony Costanzo",
-      "updateTs" : 1559935200714,
-      "updateUser" : "Tony Costanzo"
+      "creationTs" : 1507818084007,
+      "createUser" : "Admin Innerworkings",
+      "updateTs" : 1509745933574,
+      "updateUser" : "Admin Innerworkings"
     },
     "uiactions" : [ ],
     "forced" : false,
@@ -56,13 +56,47 @@
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "255f4405-9625-4373-b3d7-ba8f565b5076",
+    "id" : "1f693ad6-b258-42c3-9633-238024542bcd",
     "inputs" : {
       "name" : null,
       "attributes" : {
-        "body" : {
+        "fileName" : {
           "id" : null,
-          "refName" : "body",
+          "refName" : "fileName",
+          "type" : "String",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "fileName",
+          "description" : null
+        },
+        "fileSystemEntryRef" : {
+          "id" : null,
+          "refName" : "fileSystemEntryRef",
+          "type" : "String",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "fileSystemEntryRef",
+          "description" : null
+        },
+        "importResults" : {
+          "id" : null,
+          "refName" : "importResults",
           "type" : "Object",
           "value" : null,
           "className" : null,
@@ -74,7 +108,58 @@
           "inheritable" : false,
           "hidden" : false,
           "displayOnFrontend" : true,
-          "label" : "body",
+          "label" : "importResults",
+          "description" : null
+        },
+        "inputStream" : {
+          "id" : null,
+          "refName" : "inputStream",
+          "type" : "Object",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "inputStream",
+          "description" : null
+        },
+        "updateObjects" : {
+          "id" : null,
+          "refName" : "updateObjects",
+          "type" : "Boolean",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "updateObjects",
+          "description" : null
+        },
+        "userId" : {
+          "id" : null,
+          "refName" : "userId",
+          "type" : "String",
+          "value" : null,
+          "className" : null,
+          "selectValues" : [ ],
+          "selectValuesType" : null,
+          "selectValuesKey" : null,
+          "defaultValue" : null,
+          "required" : false,
+          "inheritable" : false,
+          "hidden" : false,
+          "displayOnFrontend" : true,
+          "label" : "userId",
           "description" : null
         }
       }
@@ -84,22 +169,94 @@
       "attributes" : { }
     },
     "scriptContextObjects" : {
-      "body" : {
+      "fileName" : {
         "type" : "scriptInputVariable",
-        "name" : "body",
+        "name" : "fileName",
         "methodName" : null,
         "modelName" : null,
         "serviceName" : null,
-        "parameterName" : "body",
+        "parameterName" : "fileName",
         "parameters" : { }
       },
-      "encryptionService" : {
-        "type" : "javaBean",
-        "name" : "encryptionService",
+      "fileSystemEntryRef" : {
+        "type" : "scriptInputVariable",
+        "name" : "fileSystemEntryRef",
         "methodName" : null,
         "modelName" : null,
-        "serviceName" : "encryptionService",
+        "serviceName" : null,
+        "parameterName" : "fileSystemEntryRef",
+        "parameters" : { }
+      },
+      "importResults" : {
+        "type" : "scriptInputVariable",
+        "name" : "importResults",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "importResults",
+        "parameters" : { }
+      },
+      "inputStream" : {
+        "type" : "scriptInputVariable",
+        "name" : "inputStream",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "inputStream",
+        "parameters" : { }
+      },
+      "saddleCreekProductImporter" : {
+        "type" : "javaBean",
+        "name" : "saddleCreekProductImporter",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
         "parameterName" : null,
+        "parameters" : { }
+      },
+      "saddleCreekSkuImporter" : {
+        "type" : "javaBean",
+        "name" : "saddleCreekSkuImporter",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "scriptUtils" : {
+        "type" : "javaBean",
+        "name" : "scriptUtils",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "taskService" : {
+        "type" : "serviceBean",
+        "name" : "taskService",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : "taskService",
+        "parameterName" : null,
+        "parameters" : { }
+      },
+      "updateObjects" : {
+        "type" : "scriptInputVariable",
+        "name" : "updateObjects",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "updateObjects",
+        "parameters" : { }
+      },
+      "userId" : {
+        "type" : "scriptInputVariable",
+        "name" : "userId",
+        "methodName" : null,
+        "modelName" : null,
+        "serviceName" : null,
+        "parameterName" : "userId",
         "parameters" : { }
       }
     },
@@ -111,7 +268,7 @@
   "functionType" : "utility",
   "inputs" : { },
   "result" : null,
-  "active" : false,
+  "active" : true,
   "blacklisted" : false,
   "blacklistReason" : null,
   "scriptTracer" : null,
@@ -244,10 +401,10 @@
     "dataDomains" : [ "com.innerworkings" ]
   },
   "scriptTypeObjRef" : {
-    "refName" : "unzipFile",
-    "refId" : "255f4405-9625-4373-b3d7-ba8f565b5076",
-    "refKey" : "8e12c0ba43b25d20a454dab29c587eaa",
-    "displayName" : "unzipFile",
+    "refName" : "productImporter",
+    "refId" : "1f693ad6-b258-42c3-9633-238024542bcd",
+    "refKey" : "65ba4a98909b02ff0c40c7c1c59f107c",
+    "displayName" : "productImporter",
     "dataDomain" : "com.innerworkings",
     "type" : "com.eis.core.api.v1.model.ScriptType",
     "nullable" : false,
