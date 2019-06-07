@@ -1,0 +1,50 @@
+{
+  "refName" : "ShopifyIntegrationSites",
+  "refKey" : "36fad6274e0cc6eb7ba5161046609309",
+  "displayName" : "ShopifyIntegrationSites",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "ShopifyIntegrationSites" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1521488051929,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "96686031-b9df-46be-a836-38a6e83e5997",
+  "type" : "ManyToMany",
+  "key" : [ "Pabst-ShopifyIntegrationSites" ],
+  "keyTypeAsString" : "ArrayList",
+  "valueTypeAsString" : "ArrayList",
+  "value" : [ [ {
+    "shopfiyBasicAuthHeader" : "Basic N2Y4ODgzNzBjYzI3NDZiN2ViYmYzM2RlMTA3OWY5MTM6OTZhZDExNjY5YTk1ZDk1MjQzYjkwOTE2YmM3YTExOTI=",
+    "shopifyAPIKey" : "7f888370cc2746b7ebbf33de1079f913",
+    "shopifyAPIPwd" : "96ad11669a95d95243b90916bc7a1192",
+    "shopifyId" : "PABST1",
+    "shopifyUrl" : "pabstdevelopment.myshopify.com"
+  }, {
+    "shopfiyBasicAuthHeader" : "Basic N2Y4ODgzNzBjYzI3NDZiN2ViYmYzM2RlMTA3OWY5MTM6OTZhZDExNjY5YTk1ZDk1MjQzYjkwOTE2YmM3YTExOTI=",
+    "shopifyAPIKey" : "7f888370cc2746b7ebbf33de1079f913",
+    "shopifyAPIPwd" : "96ad11669a95d95243b90916bc7a1192",
+    "shopifyId" : "PABST2",
+    "shopifyUrl" : "pabstdevelopment.myshopify.com"
+  } ] ],
+  "category" : "GENERIC",
+  "defaultValue" : null,
+  "documentation" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}
