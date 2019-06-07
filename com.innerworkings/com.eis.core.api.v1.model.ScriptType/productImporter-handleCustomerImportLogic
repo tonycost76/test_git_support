@@ -1,0 +1,97 @@
+{
+  "refName" : "productImporter-handleCustomerImportLogic",
+  "refKey" : "8c3ff0f933c6de760dfd9b769560e439",
+  "displayName" : "productImporter-handleCustomerImportLogic",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "productImporter-handleCustomerImportLogic" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1510150766052,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "ec6664b9-2a15-438a-8211-6e3fd4d3125e",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "baseModel" : {
+        "id" : null,
+        "refName" : "baseModel",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "baseModel",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "baseModel" : {
+      "type" : "scriptInputVariable",
+      "name" : "baseModel",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "baseModel",
+      "parameters" : { }
+    },
+    "brandService" : {
+      "type" : "serviceBean",
+      "name" : "brandService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "brandService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationService" : {
+      "type" : "serviceBean",
+      "name" : "organizationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "organizationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

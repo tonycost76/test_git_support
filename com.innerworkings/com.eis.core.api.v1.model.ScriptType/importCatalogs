@@ -1,0 +1,79 @@
+{
+  "refName" : "importCatalogs",
+  "refKey" : "6d1daa5f4c67944787b53b8fc5269ab1",
+  "displayName" : "importCatalogs",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "importCatalogs" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545271508151,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : 1545271810788,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "c81ab388-c284-4eaa-980e-b937cf73941f",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "catalogService" : {
+      "type" : "serviceBean",
+      "name" : "catalogService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "catalogService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

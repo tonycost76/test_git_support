@@ -1,0 +1,169 @@
+{
+  "refName" : "scheduleSalesOrderType",
+  "refKey" : "f20a974cdc23f0faad432427628a8374",
+  "displayName" : "scheduleSalesOrderType",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "scheduleSalesOrderType" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1521723194768,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "8a2b5176-cf43-4d28-a72a-eb8411e58e09",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "channelService" : {
+      "type" : "serviceBean",
+      "name" : "channelService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "channelService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryAllocationUtils" : {
+      "type" : "javaBean",
+      "name" : "inventoryAllocationUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "itemService" : {
+      "type" : "serviceBean",
+      "name" : "itemService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "itemService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationService" : {
+      "type" : "serviceBean",
+      "name" : "organizationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "organizationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipStationHelper" : {
+      "type" : "javaBean",
+      "name" : "shipStationHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestDAO" : {
+      "type" : "daoBean",
+      "name" : "shipmentRequestDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentRequestService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shippingProfileService" : {
+      "type" : "serviceBean",
+      "name" : "shippingProfileService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shippingProfileService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "vendorLocationService" : {
+      "type" : "serviceBean",
+      "name" : "vendorLocationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "vendorLocationService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

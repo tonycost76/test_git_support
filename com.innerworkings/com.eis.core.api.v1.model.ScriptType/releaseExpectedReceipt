@@ -1,0 +1,97 @@
+{
+  "refName" : "releaseExpectedReceipt",
+  "refKey" : "099df9923ec62ff3ea94b5d826e4ebeb",
+  "displayName" : "releaseExpectedReceipt",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "releaseExpectedReceipt" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1533527000400,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "71854768-1b6c-4c1e-a618-72a67af19748",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "expectedReceipt" : {
+        "id" : null,
+        "refName" : "expectedReceipt",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "expectedReceipt",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "expectedReceipt" : {
+      "type" : "scriptInputVariable",
+      "name" : "expectedReceipt",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "expectedReceipt",
+      "parameters" : { }
+    },
+    "expectedReceiptService" : {
+      "type" : "serviceBean",
+      "name" : "expectedReceiptService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "expectedReceiptService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

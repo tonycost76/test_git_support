@@ -1,0 +1,168 @@
+{
+  "refName" : "processRemittanceAdvice",
+  "refKey" : "bad44c3abefd73bb2b9c9ac44c9d7b8a",
+  "displayName" : "processRemittanceAdvice",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "processRemittanceAdvice" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1552998364198,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "70315993-2247-493c-b2b7-6c587d5d8b54",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "invoiceService" : {
+      "type" : "serviceBean",
+      "name" : "invoiceService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "invoiceService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationService" : {
+      "type" : "serviceBean",
+      "name" : "organizationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "organizationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "remittanceAdviceDAO" : {
+      "type" : "daoBean",
+      "name" : "remittanceAdviceDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "remittanceAdviceDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "remittanceAdviceService" : {
+      "type" : "serviceBean",
+      "name" : "remittanceAdviceService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "remittanceAdviceService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "vendorService" : {
+      "type" : "serviceBean",
+      "name" : "vendorService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "vendorService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

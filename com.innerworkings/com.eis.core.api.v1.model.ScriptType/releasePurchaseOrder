@@ -1,0 +1,97 @@
+{
+  "refName" : "releasePurchaseOrder",
+  "refKey" : "6614fbb5f5a79f5025e5ffa7e2e83b87",
+  "displayName" : "releasePurchaseOrder",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "releasePurchaseOrder" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520435156343,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "eee1ed17-9a00-4ef4-9c28-0af1531190c8",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "purchaseOrderId" : {
+        "id" : null,
+        "refName" : "purchaseOrderId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "purchaseOrderId",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "purchaseOrderId" : {
+      "type" : "scriptInputVariable",
+      "name" : "purchaseOrderId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "purchaseOrderId",
+      "parameters" : { }
+    },
+    "purchaseOrderService" : {
+      "type" : "serviceBean",
+      "name" : "purchaseOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "purchaseOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

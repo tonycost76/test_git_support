@@ -1,0 +1,150 @@
+{
+  "refName" : "writeFleetPrideProductCSV",
+  "refKey" : "d5e2c9e3c7b1cf9b32090ede0fb7e089",
+  "displayName" : "writeFleetPrideProductCSV",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "writeFleetPrideProductCSV" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545309231155,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : 1559245908394,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "074f6726-e83d-4643-9c49-5c99e63a108e",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "bulkInventoryPoolEntryHelperV2" : {
+      "type" : "javaBean",
+      "name" : "bulkInventoryPoolEntryHelperV2",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "bulkProductSkuHelper" : {
+      "type" : "javaBean",
+      "name" : "bulkProductSkuHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "fileSystemEntryService" : {
+      "type" : "serviceBean",
+      "name" : "fileSystemEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "fileSystemEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "parserHelper" : {
+      "type" : "javaBean",
+      "name" : "parserHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuDAO" : {
+      "type" : "javaBean",
+      "name" : "skuDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

@@ -1,0 +1,52 @@
+{
+  "refName" : "testSkuCrossReference",
+  "refKey" : "cd3c9bc02abf62ccbfd07f29be33673f",
+  "displayName" : "testSkuCrossReference",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "testSkuCrossReference" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1547503995458,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "9bf65607-a489-42f5-9700-631316a59e39",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "skuCrossReferenceDAO" : {
+      "type" : "daoBean",
+      "name" : "skuCrossReferenceDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuCrossReferenceDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

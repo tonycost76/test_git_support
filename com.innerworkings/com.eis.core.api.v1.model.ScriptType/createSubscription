@@ -1,0 +1,70 @@
+{
+  "refName" : "createSubscription",
+  "refKey" : "f0b93164c4e8fc113c5a7cd903ab05f7",
+  "displayName" : "createSubscription",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "createSubscription" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1533320742522,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1533324625600,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "8d8b2b36-5331-497f-9781-9dccdeda651b",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "salesOrder" : {
+        "id" : null,
+        "refName" : "salesOrder",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "salesOrder",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "EVENT_LISTENER",
+  "eventType" : "SalesOrder:After:Save",
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

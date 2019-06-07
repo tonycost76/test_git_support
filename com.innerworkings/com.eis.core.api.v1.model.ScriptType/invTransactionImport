@@ -1,0 +1,195 @@
+{
+  "refName" : "invTransactionImport",
+  "refKey" : "4cde91ec5d2ef7bc5c2cfe069a2d8b1a",
+  "displayName" : "invTransactionImport",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "invTransactionImport" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1509030079326,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1509139725533,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "572cbe84-6b4a-4e72-b33e-aaeff86d8b4a",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "businessNumberGeneratorDAO" : {
+      "type" : "javaBean",
+      "name" : "businessNumberGeneratorDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "inventoryPoolEntryAuditLogEntryDAO" : {
+      "type" : "javaBean",
+      "name" : "inventoryPoolEntryAuditLogEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolEntryDAO" : {
+      "type" : "javaBean",
+      "name" : "inventoryPoolEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolEntryService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "productService" : {
+      "type" : "serviceBean",
+      "name" : "productService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "productService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuDAO" : {
+      "type" : "daoBean",
+      "name" : "skuDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuService" : {
+      "type" : "serviceBean",
+      "name" : "skuService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

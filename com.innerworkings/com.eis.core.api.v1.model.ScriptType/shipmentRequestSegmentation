@@ -1,0 +1,113 @@
+{
+  "refName" : "shipmentRequestSegmentation",
+  "refKey" : "8c278186db5277cce6abb44457649ea9",
+  "displayName" : "shipmentRequestSegmentation",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "shipmentRequestSegmentation" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1510249093834,
+    "createUser" : "Praveen Subba Rao",
+    "updateTs" : 1510253592420,
+    "updateUser" : "Praveen Subba Rao"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "b63b0dea-f45e-493e-afbd-9426967de52e",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "order" : {
+        "id" : null,
+        "refName" : "order",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "The Order object",
+        "description" : null
+      },
+      "orderLine" : {
+        "id" : null,
+        "refName" : "orderLine",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "The Order line",
+        "description" : null
+      },
+      "site" : {
+        "id" : null,
+        "refName" : "site",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "The Site object",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "productService" : {
+      "type" : "serviceBean",
+      "name" : "productService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "productService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuService" : {
+      "type" : "serviceBean",
+      "name" : "skuService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

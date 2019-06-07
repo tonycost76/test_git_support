@@ -1,0 +1,97 @@
+{
+  "refName" : "outhRestCall",
+  "refKey" : "45932a4e6af2fae10030476ac829f7d4",
+  "displayName" : "outhRestCall",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "outhRestCall" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1519682664797,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1521201551374,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "ec41061f-5cd7-4885-bb57-57545ea029ba",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "correlationDAO" : {
+      "type" : "daoBean",
+      "name" : "correlationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "notificationService" : {
+      "type" : "serviceBean",
+      "name" : "notificationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "notificationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "oauthRestHelper" : {
+      "type" : "javaBean",
+      "name" : "oauthRestHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

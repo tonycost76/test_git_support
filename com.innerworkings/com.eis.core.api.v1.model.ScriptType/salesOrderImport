@@ -1,0 +1,301 @@
+{
+  "refName" : "salesOrderImport",
+  "refKey" : "1c5dc0ba5e3f8e75318dfee7f3321c71",
+  "displayName" : "salesOrderImport",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "salesOrderImport" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1508876911304,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1522180792428,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "2c0d2a52-3efb-4446-9084-b9c95308b159",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      },
+      "header_MailboxEntryID" : {
+        "id" : null,
+        "refName" : "header_MailboxEntryID",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_MailboxEntryID",
+        "description" : null
+      },
+      "header_transmissionId" : {
+        "id" : null,
+        "refName" : "header_transmissionId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_transmissionId",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "businessNumberGenerator" : {
+      "type" : "javaBean",
+      "name" : "businessNumberGenerator",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "channelService" : {
+      "type" : "serviceBean",
+      "name" : "channelService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "channelService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "customerService" : {
+      "type" : "serviceBean",
+      "name" : "customerService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "customerService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "header_MailboxEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_MailboxEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_MailboxEntryID",
+      "parameters" : { }
+    },
+    "header_transmissionId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_transmissionId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_transmissionId",
+      "parameters" : { }
+    },
+    "itemService" : {
+      "type" : "serviceBean",
+      "name" : "itemService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "itemService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "notificationDAO" : {
+      "type" : "javaBean",
+      "name" : "notificationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationService" : {
+      "type" : "serviceBean",
+      "name" : "organizationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "organizationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "priceBookEntryService" : {
+      "type" : "serviceBean",
+      "name" : "priceBookEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "priceBookEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "productService" : {
+      "type" : "serviceBean",
+      "name" : "productService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "productService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuService" : {
+      "type" : "serviceBean",
+      "name" : "skuService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskDAO" : {
+      "type" : "javaBean",
+      "name" : "taskDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "tradeAgreementService" : {
+      "type" : "serviceBean",
+      "name" : "tradeAgreementService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "tradeAgreementService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "vendorService" : {
+      "type" : "serviceBean",
+      "name" : "vendorService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "vendorService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

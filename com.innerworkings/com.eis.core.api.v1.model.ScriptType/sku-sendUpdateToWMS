@@ -1,0 +1,79 @@
+{
+  "refName" : "sku-sendUpdateToWMS",
+  "refKey" : "6657310a607cb472046489e251b9d684",
+  "displayName" : "sku-sendUpdateToWMS",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "sku-sendUpdateToWMS" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1512064556642,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1521064143922,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "70be5219-a403-4140-a0e2-7e48d93263b2",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "sku" : {
+        "id" : null,
+        "refName" : "sku",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "sku",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "inventoryPoolEntryService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "EVENT_LISTENER",
+  "eventType" : "Sku:After:Update",
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

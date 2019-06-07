@@ -1,0 +1,61 @@
+{
+  "refName" : "testShopifyMarketPlaceConnections",
+  "refKey" : "65b03dbe7037424d49d2d8051d72bb9e",
+  "displayName" : "testShopifyMarketPlaceConnections",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "testShopifyMarketPlaceConnections" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1528922198595,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "ebd81a4c-569d-4aab-827b-61a21796e13a",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "marketPlaceConnectionService" : {
+      "type" : "serviceBean",
+      "name" : "marketPlaceConnectionService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "marketPlaceConnectionService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shopifyMarketPlaceConnector" : {
+      "type" : "javaBean",
+      "name" : "shopifyMarketPlaceConnector",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

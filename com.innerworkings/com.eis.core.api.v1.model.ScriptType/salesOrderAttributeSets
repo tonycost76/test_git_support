@@ -1,0 +1,60 @@
+{
+  "refName" : "salesOrderAttributeSets",
+  "refKey" : "67fddeaa52f4b29994af52d409725e35",
+  "displayName" : "salesOrderAttributeSets",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "salesOrderAttributeSets" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1518816010018,
+    "createUser" : "Praveen Subba Rao",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "e9e82880-7027-48c1-b154-b3556a5e33dc",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "salesOrder" : {
+        "id" : null,
+        "refName" : "salesOrder",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "salesOrder",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : { },
+  "type" : "EVENT_LISTENER",
+  "eventType" : "SalesOrder:Before:Create",
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

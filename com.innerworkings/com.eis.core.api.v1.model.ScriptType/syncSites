@@ -1,0 +1,237 @@
+{
+  "refName" : "syncSites",
+  "refKey" : "8e303353274d149cb86e0241140d70aa",
+  "displayName" : "syncSites",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "syncSites" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1542071856451,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : 1545569625121,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "5501f6f3-ca9a-457e-99db-4d7843c2508d",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "FileSystemEntryId" : {
+        "id" : null,
+        "refName" : "FileSystemEntryId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "FileSystemEntryId",
+        "description" : null
+      },
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      },
+      "header_FileSystemEntryId" : {
+        "id" : null,
+        "refName" : "header_FileSystemEntryId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_FileSystemEntryId",
+        "description" : null
+      },
+      "header_LoadType" : {
+        "id" : null,
+        "refName" : "header_LoadType",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_LoadType",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "FileSystemEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "FileSystemEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "FileSystemEntryId",
+      "parameters" : { }
+    },
+    "accountService" : {
+      "type" : "serviceBean",
+      "name" : "accountService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "accountService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "bulkCustomerHelper" : {
+      "type" : "javaBean",
+      "name" : "bulkCustomerHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "bulkSiteHelper" : {
+      "type" : "javaBean",
+      "name" : "bulkSiteHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "catalogService" : {
+      "type" : "serviceBean",
+      "name" : "catalogService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "catalogService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "channelService" : {
+      "type" : "serviceBean",
+      "name" : "channelService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "channelService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "header_FileSystemEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_FileSystemEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_FileSystemEntryId",
+      "parameters" : { }
+    },
+    "header_LoadType" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_LoadType",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_LoadType",
+      "parameters" : { }
+    },
+    "notificationService" : {
+      "type" : "serviceBean",
+      "name" : "notificationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "notificationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskService" : {
+      "type" : "serviceBean",
+      "name" : "taskService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "taskService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

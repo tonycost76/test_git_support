@@ -1,0 +1,97 @@
+{
+  "refName" : "shopifyInventoryRESTCall",
+  "refKey" : "ceee4d2780221607ee5251e2d13b43a2",
+  "displayName" : "shopifyInventoryRESTCall",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "shopifyInventoryRESTCall" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520027247957,
+    "createUser" : "Shopify Pabst",
+    "updateTs" : 1521202237804,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "0c51a951-e1a8-4427-956e-57d7da412d85",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolEntryService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "notificationService" : {
+      "type" : "serviceBean",
+      "name" : "notificationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "notificationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

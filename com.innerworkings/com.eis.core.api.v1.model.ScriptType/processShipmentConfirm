@@ -1,0 +1,283 @@
+{
+  "refName" : "processShipmentConfirm",
+  "refKey" : "cc89b3e42c94f3562944909e56d40a2d",
+  "displayName" : "processShipmentConfirm",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "processShipmentConfirm" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1508879019933,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1520859444543,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "5aa85de1-79f7-4f44-969d-c1af69617fa8",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      },
+      "header_MailboxEntryId" : {
+        "id" : null,
+        "refName" : "header_MailboxEntryId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_MailboxEntryId",
+        "description" : null
+      },
+      "header_transmissionId" : {
+        "id" : null,
+        "refName" : "header_transmissionId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_transmissionId",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "catalogService" : {
+      "type" : "serviceBean",
+      "name" : "catalogService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "catalogService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "header_MailboxEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_MailboxEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_MailboxEntryId",
+      "parameters" : { }
+    },
+    "header_transmissionId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_transmissionId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_transmissionId",
+      "parameters" : { }
+    },
+    "inventoryPoolEntryService" : {
+      "type" : "serviceBean",
+      "name" : "inventoryPoolEntryService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolEntryService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "notificationDAO" : {
+      "type" : "javaBean",
+      "name" : "notificationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "notificationDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationService" : {
+      "type" : "serviceBean",
+      "name" : "organizationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "organizationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "productService" : {
+      "type" : "serviceBean",
+      "name" : "productService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "productService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentDAO" : {
+      "type" : "daoBean",
+      "name" : "shipmentDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestDAO" : {
+      "type" : "daoBean",
+      "name" : "shipmentRequestDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentRequestService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskDAO" : {
+      "type" : "javaBean",
+      "name" : "taskDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "vendorService" : {
+      "type" : "serviceBean",
+      "name" : "vendorService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "vendorService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

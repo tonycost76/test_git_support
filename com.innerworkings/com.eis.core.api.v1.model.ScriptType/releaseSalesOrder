@@ -1,0 +1,268 @@
+{
+  "refName" : "releaseSalesOrder",
+  "refKey" : "fefe206c67674657874fdd7055f7bca3",
+  "displayName" : "releaseSalesOrder",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "releaseSalesOrder" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1508877570858,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1518398522218,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "a4e33c3c-5b4f-42a9-9ffb-b2b629b83978",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "salesOrderIds" : {
+        "id" : null,
+        "refName" : "salesOrderIds",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "salesOrderIds",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "channelDAO" : {
+      "type" : "daoBean",
+      "name" : "channelDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "channelDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryAllocationEngine" : {
+      "type" : "javaBean",
+      "name" : "inventoryAllocationEngine",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryAllocationHelper" : {
+      "type" : "javaBean",
+      "name" : "inventoryAllocationHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryAllocationLoggerDAO" : {
+      "type" : "javaBean",
+      "name" : "inventoryAllocationLoggerDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolDAO" : {
+      "type" : "daoBean",
+      "name" : "inventoryPoolDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolEntryDAO" : {
+      "type" : "daoBean",
+      "name" : "inventoryPoolEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolEntryDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "postalCodeProximityConfigDAO" : {
+      "type" : "javaBean",
+      "name" : "postalCodeProximityConfigDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "productDAO" : {
+      "type" : "daoBean",
+      "name" : "productDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "productDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "reservationDAO" : {
+      "type" : "daoBean",
+      "name" : "reservationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "reservationDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "reservationEngine" : {
+      "type" : "javaBean",
+      "name" : "reservationEngine",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "reservationEntryDAO" : {
+      "type" : "daoBean",
+      "name" : "reservationEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "reservationEntryDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderDAO" : {
+      "type" : "daoBean",
+      "name" : "salesOrderDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderIds" : {
+      "type" : "scriptInputVariable",
+      "name" : "salesOrderIds",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "salesOrderIds",
+      "parameters" : { }
+    },
+    "salesOrderReleaseLogDAO" : {
+      "type" : "javaBean",
+      "name" : "salesOrderReleaseLogDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestDAO" : {
+      "type" : "daoBean",
+      "name" : "shipmentRequestDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteClusterDAO" : {
+      "type" : "daoBean",
+      "name" : "siteClusterDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteClusterDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteDAO" : {
+      "type" : "daoBean",
+      "name" : "siteDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteGroupDAO" : {
+      "type" : "daoBean",
+      "name" : "siteGroupDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteGroupDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteGroupService" : {
+      "type" : "serviceBean",
+      "name" : "siteGroupService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteGroupService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuDAO" : {
+      "type" : "daoBean",
+      "name" : "skuDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

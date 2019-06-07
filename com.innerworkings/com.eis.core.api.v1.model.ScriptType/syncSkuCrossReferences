@@ -1,0 +1,273 @@
+{
+  "refName" : "syncSkuCrossReferences",
+  "refKey" : "4b923eeff06f89c65946ae064346ad0b",
+  "displayName" : "syncSkuCrossReferences",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "syncSkuCrossReferences" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1542051273305,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : 1559249859600,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "b907da89-fe88-4af4-9093-3b41ef40176b",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "FileSystemEntryId" : {
+        "id" : null,
+        "refName" : "FileSystemEntryId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "FileSystemEntryId",
+        "description" : null
+      },
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      },
+      "header_FileSystemEntryId" : {
+        "id" : null,
+        "refName" : "header_FileSystemEntryId",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_FileSystemEntryId",
+        "description" : null
+      },
+      "header_LoadType" : {
+        "id" : null,
+        "refName" : "header_LoadType",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_LoadType",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "FileSystemEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "FileSystemEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "FileSystemEntryId",
+      "parameters" : { }
+    },
+    "accountService" : {
+      "type" : "serviceBean",
+      "name" : "accountService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "accountService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "bulkInventoryPoolEntryHelperV2" : {
+      "type" : "javaBean",
+      "name" : "bulkInventoryPoolEntryHelperV2",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "bulkProductSkuHelper" : {
+      "type" : "javaBean",
+      "name" : "bulkProductSkuHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "bulkSkuCrossReferenceHelper" : {
+      "type" : "javaBean",
+      "name" : "bulkSkuCrossReferenceHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "catalogService" : {
+      "type" : "serviceBean",
+      "name" : "catalogService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "catalogService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "header_FileSystemEntryId" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_FileSystemEntryId",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_FileSystemEntryId",
+      "parameters" : { }
+    },
+    "header_LoadType" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_LoadType",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_LoadType",
+      "parameters" : { }
+    },
+    "inventoryPoolDAO" : {
+      "type" : "daoBean",
+      "name" : "inventoryPoolDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "inventoryPoolDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "inventoryPoolEntryDAO" : {
+      "type" : "javaBean",
+      "name" : "inventoryPoolEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "notificationService" : {
+      "type" : "serviceBean",
+      "name" : "notificationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "notificationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "organizationDAO" : {
+      "type" : "javaBean",
+      "name" : "organizationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skuService" : {
+      "type" : "serviceBean",
+      "name" : "skuService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "skuService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskService" : {
+      "type" : "serviceBean",
+      "name" : "taskService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "taskService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

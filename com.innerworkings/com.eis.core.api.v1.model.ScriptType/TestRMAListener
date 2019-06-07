@@ -1,0 +1,60 @@
+{
+  "refName" : "TestRMAListener",
+  "refKey" : "a318b7944c45f45d9b04891edec6854c",
+  "displayName" : "TestRMAListener",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "TestRMAListener" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1551966309859,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "574b5822-917b-4083-ab47-b2b6775bbaf5",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "returnMerchandiseAuthorization" : {
+        "id" : null,
+        "refName" : "returnMerchandiseAuthorization",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "returnMerchandiseAuthorization",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : { },
+  "type" : "EVENT_LISTENER",
+  "eventType" : "ReturnMerchandiseAuthorization:After:Create",
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

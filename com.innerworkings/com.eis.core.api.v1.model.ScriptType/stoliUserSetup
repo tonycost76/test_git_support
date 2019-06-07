@@ -1,0 +1,357 @@
+{
+  "refName" : "stoliUserSetup",
+  "refKey" : "206b62b994bfd4b70e5e652d11751995",
+  "displayName" : "stoliUserSetup",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "stoliUserSetup" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1518210436436,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1520544514251,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "2b98d3ce-f392-49d2-b564-38e4edd63234",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "body" : {
+        "id" : null,
+        "refName" : "body",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "body",
+        "description" : null
+      },
+      "header_CamelFileName" : {
+        "id" : null,
+        "refName" : "header_CamelFileName",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "header_CamelFileName",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "accountDAO" : {
+      "type" : "javaBean",
+      "name" : "accountDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "accountService" : {
+      "type" : "serviceBean",
+      "name" : "accountService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "accountService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "body" : {
+      "type" : "scriptInputVariable",
+      "name" : "body",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "body",
+      "parameters" : { }
+    },
+    "capabilityService" : {
+      "type" : "serviceBean",
+      "name" : "capabilityService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "capabilityService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "catalogDAO" : {
+      "type" : "javaBean",
+      "name" : "catalogDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "channelDAO" : {
+      "type" : "javaBean",
+      "name" : "channelDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "channelService" : {
+      "type" : "serviceBean",
+      "name" : "channelService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "channelService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationDAO" : {
+      "type" : "javaBean",
+      "name" : "correlationDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "correlationService" : {
+      "type" : "serviceBean",
+      "name" : "correlationService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "correlationService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "customerDAO" : {
+      "type" : "daoBean",
+      "name" : "customerDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "customerDAO",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "customerProfileDAO" : {
+      "type" : "javaBean",
+      "name" : "customerProfileDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "customerProfileService" : {
+      "type" : "serviceBean",
+      "name" : "customerProfileService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "customerProfileService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "customerService" : {
+      "type" : "serviceBean",
+      "name" : "customerService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "customerService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "dataDomainPolicyService" : {
+      "type" : "serviceBean",
+      "name" : "dataDomainPolicyService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "dataDomainPolicyService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "fileSystemEntryDAO" : {
+      "type" : "javaBean",
+      "name" : "fileSystemEntryDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "header_CamelFileName" : {
+      "type" : "scriptInputVariable",
+      "name" : "header_CamelFileName",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "header_CamelFileName",
+      "parameters" : { }
+    },
+    "inventoryPoolDAO" : {
+      "type" : "javaBean",
+      "name" : "inventoryPoolDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "mailboxDAO" : {
+      "type" : "javaBean",
+      "name" : "mailboxDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "multiTenantRealm" : {
+      "type" : "javaBean",
+      "name" : "multiTenantRealm",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "registrationRequestDAO" : {
+      "type" : "javaBean",
+      "name" : "registrationRequestDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "registrationRequestService" : {
+      "type" : "serviceBean",
+      "name" : "registrationRequestService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "registrationRequestService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "reportLayoutDefinitionDAO" : {
+      "type" : "javaBean",
+      "name" : "reportLayoutDefinitionDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "roleDAO" : {
+      "type" : "javaBean",
+      "name" : "roleDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptDAO" : {
+      "type" : "javaBean",
+      "name" : "scriptDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptSecurityPolicyDAO" : {
+      "type" : "javaBean",
+      "name" : "scriptSecurityPolicyDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "scriptTypeDAO" : {
+      "type" : "javaBean",
+      "name" : "scriptTypeDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteDAO" : {
+      "type" : "javaBean",
+      "name" : "siteDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "userGroupDAO" : {
+      "type" : "javaBean",
+      "name" : "userGroupDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "userProfileDAO" : {
+      "type" : "javaBean",
+      "name" : "userProfileDAO",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}
