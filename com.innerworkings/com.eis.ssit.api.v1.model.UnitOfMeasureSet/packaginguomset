@@ -1,0 +1,33 @@
+{
+  "refName" : "packaginguomset",
+  "refKey" : "ae25bf951f8eedf1d608471ff356073f",
+  "displayName" : "packaginguomset",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "packaginguomset" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545219338243,
+    "createUser" : "Automatic",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "sysTranactionId" : null,
+  "attachments" : [ ],
+  "id" : "a469c1ab-9fa2-4185-82d1-c7ba6b2a58c8",
+  "unitOfMeasurements" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

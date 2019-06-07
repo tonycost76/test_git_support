@@ -1,0 +1,33 @@
+{
+  "refName" : "weightuomset",
+  "refKey" : "b7c70fc8ce82f18d789f2968beed2d44",
+  "displayName" : "weightuomset",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "weightuomset" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545219338176,
+    "createUser" : "Automatic",
+    "updateTs" : 1546266621295,
+    "updateUser" : "Automatic"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "sysTranactionId" : null,
+  "attachments" : [ ],
+  "id" : "13a0ee08-df61-4539-ad28-f43b2ffaead3",
+  "unitOfMeasurements" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}
