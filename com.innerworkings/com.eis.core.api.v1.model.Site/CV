@@ -1,0 +1,212 @@
+{
+  "refName" : "CV",
+  "refKey" : "8c3f4a95384a3becb272e535aec35929",
+  "displayName" : "CHULA VISTA",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ ],
+  "tags" : [ ],
+  "hashSum" : "df150d350da455564a290c7a90566437",
+  "auditInfo" : null,
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ {
+    "type" : "string",
+    "name" : "Accepts_Back_Orders",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Allow_Partial_BOFill",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Number",
+    "value" : "6370309",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Rate",
+    "value" : ".07750",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Region",
+    "value" : "WEST",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Area",
+    "value" : "SWCA",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "In_City",
+    "value" : "TRUE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Rural",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Main Department",
+    "value" : "734",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Territory ID",
+    "value" : "WE1",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Email_Address",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Toll_Free_Number",
+    "value" : "8007945811",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "OverrideDataDomains",
+    "value" : "com.innerworkings,com.fp",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "AllowedFulfillmentTypes",
+    "value" : "shipToSite,shipFromSite,pickupAtSite",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "InventoryPoolChannels",
+    "value" : "Stoli",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  } ],
+  "id" : "670e5cba-a5b1-499c-9584-010098d74614",
+  "address" : {
+    "id" : "1-CV",
+    "displayName" : null,
+    "refName" : null,
+    "addressNameField" : "CV",
+    "address1" : "630 BAY BLVD STE 105",
+    "address2" : null,
+    "address3" : null,
+    "city" : "CHULA VISTA",
+    "state" : "CA",
+    "stateName" : null,
+    "zip5" : "91910",
+    "zip4" : "5262",
+    "postalCode" : null,
+    "country" : "US",
+    "countryName" : null,
+    "coordinates" : {
+      "type" : null,
+      "exact" : false,
+      "longitude" : 0.0,
+      "latitude" : 0.0
+    },
+    "validated" : false,
+    "validationCode" : null,
+    "validationMessage" : null,
+    "lastValidationAttempt" : null,
+    "roles" : [ "billto", "shipto", "contact" ],
+    "residentialStatus" : null
+  },
+  "tmz" : null,
+  "shipmentRequestMailboxRefName" : null,
+  "fulfillmentCost" : 0.0,
+  "lineCost" : 0.0,
+  "shipToCustomer" : false,
+  "shipHazardousMaterials" : false,
+  "shipToStore" : false,
+  "dropShip" : false,
+  "siteInventoryOwner" : null,
+  "organization" : null,
+  "calendar" : null,
+  "calendars" : { },
+  "catalogId" : null,
+  "dcNbr" : null,
+  "regionalDc" : "VS",
+  "dc" : false,
+  "storeLocation" : false,
+  "vendorLocation" : false,
+  "mustAllowOutwardTransfers" : false,
+  "allowedInwardTransfers" : [ ],
+  "storeNumber" : 4284,
+  "shippingObjRef" : null,
+  "siteType" : "Store",
+  "defaultInventorySource" : false,
+  "storeType" : null,
+  "openDate" : null,
+  "size" : 0,
+  "managerName" : "EDUARDO MARTINEZ",
+  "phone" : "6195850822",
+  "receivingPhone" : null,
+  "vendorId" : null,
+  "fedExAccount" : null,
+  "meterNumber" : null,
+  "fedExSubscribeErrors" : [ ],
+  "allowManualShipmentCreation" : true,
+  "contacts" : [ ],
+  "allowedFulfillmentTypes" : {
+    "dropShip" : false,
+    "eligibleForTransfer" : false,
+    "localDelivery" : false,
+    "onSitePurchaseCarryOut" : false,
+    "pickupAtSite" : true,
+    "shipFromSite" : true,
+    "shipToSite" : true
+  },
+  "allowedPaymentTypes" : {
+    "accountCredit" : false,
+    "cash" : false,
+    "credit" : false,
+    "debitCard" : false,
+    "giftCards" : false
+  },
+  "allowedSalesTypes" : {
+    "layaway" : false,
+    "salesBasic" : false,
+    "salesOrder" : false,
+    "workOrder" : false
+  },
+  "addressBooks" : { },
+  "shippingAccounts" : [ ],
+  "parents" : [ ],
+  "fulfillmentServices" : [ ],
+  "timeToAcknowledgeInMin" : 0,
+  "timeOutReason" : "Time Out Rejected",
+  "expectedReceiptsMailboxRefName" : null,
+  "active" : true,
+  "processingTime" : 0,
+  "siteContacts" : null,
+  "dataDomains" : [ "com.innerworkings", "com.fp" ]
+}
