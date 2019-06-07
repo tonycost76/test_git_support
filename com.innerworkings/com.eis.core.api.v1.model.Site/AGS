@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "AGS",
+  "refKey" : "9c9274cae7e790d88048b54b08fe6d79",
+  "displayName" : "AGAWAM SHOP",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "fe6700c8c56692582b1ab9d4340f47db",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -45,19 +40,19 @@
   }, {
     "type" : "string",
     "name" : "Location_Tax_Rate",
-    "value" : ".00000",
+    "value" : ".05000",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Region",
-    "value" : "SOUTHEAST",
+    "value" : "NORTHEAST",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Area",
-    "value" : "ALGA",
+    "value" : "NENO",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -75,13 +70,13 @@
   }, {
     "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "621",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Territory ID",
-    "value" : "SE4",
+    "value" : "NE3",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,7 +88,7 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : "8662078728",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -115,20 +110,20 @@
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "b64abf31-9dbd-44b8-9161-fbbbd5940e2e",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "1-AGS",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "AGS",
+    "address1" : "32 CENTURY ST",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "AGAWAM",
+    "state" : "MA",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "01001",
+    "zip4" : "2013",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,39 +151,24 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
   "dcNbr" : null,
-  "regionalDc" : "AT",
+  "regionalDc" : "NH",
   "dc" : false,
   "storeLocation" : false,
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 1168,
   "shippingObjRef" : null,
   "siteType" : "Store",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : "CHUCK ELLSWORTH",
+  "phone" : "4137890331",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,

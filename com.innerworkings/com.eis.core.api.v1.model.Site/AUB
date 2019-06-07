@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "AUB",
+  "refKey" : "033fb9df4260af2153abfa85c559f939",
+  "displayName" : "AUBURN",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "cbb3f52e27d85a74d21b2992b116be09",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -39,25 +34,25 @@
   }, {
     "type" : "string",
     "name" : "Location_Tax_Number",
-    "value" : "0",
+    "value" : "1702",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Tax_Rate",
-    "value" : ".00000",
+    "value" : ".08800",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Region",
-    "value" : "SOUTHEAST",
+    "value" : "WEST",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Area",
-    "value" : "ALGA",
+    "value" : "NORW",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -75,13 +70,13 @@
   }, {
     "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "742",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Territory ID",
-    "value" : "SE4",
+    "value" : "WE3",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,7 +88,7 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : "8005625508",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -115,20 +110,20 @@
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "886c3e0a-03d9-45df-8793-402516a69595",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "1-AUB",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "AUB",
+    "address1" : "1302 W MAIN ST",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "AUBURN",
+    "state" : "WA",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "98001",
+    "zip4" : "5259",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,39 +151,24 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
   "dcNbr" : null,
-  "regionalDc" : "AT",
+  "regionalDc" : "VS",
   "dc" : false,
   "storeLocation" : false,
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 4247,
   "shippingObjRef" : null,
   "siteType" : "Store",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : "GLENN CHEEVER",
+  "phone" : "2539397274",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,

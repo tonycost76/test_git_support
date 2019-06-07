@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "AT",
+  "refKey" : "ddf0d825e0e6621590c2372f253299f8",
+  "displayName" : "ATLANTA DC",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "e1976a2941dc17279fbbddc7f773e5b7",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -51,37 +46,37 @@
   }, {
     "type" : "string",
     "name" : "Location_Region",
-    "value" : "SOUTHEAST",
+    "value" : "PDC",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Area",
-    "value" : "ALGA",
+    "value" : "PDC",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "In_City",
-    "value" : "TRUE",
-    "systemInd" : "N",
-    "requiredInd" : "N"
-  }, {
-    "type" : "string",
-    "name" : "Rural",
     "value" : "FALSE",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
+    "name" : "Rural",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "355",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Territory ID",
-    "value" : "SE4",
+    "value" : "PDW",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,42 +88,42 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : null,
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "OverrideDataDomains",
-    "value" : "com.innerworkings,com.fp",
+    "value" : "com.innerworkings,com.fp,com.pdc",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "AllowedFulfillmentTypes",
-    "value" : "shipToSite,shipFromSite,pickupAtSite",
+    "value" : "shipFromSite,pickupAtSite",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "InventoryPoolChannels",
-    "value" : "Stoli",
+    "value" : "Stoli,Pabst",
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "14fc96f6-0531-40fe-bcd0-8fa418952db9",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "2-AT",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "AT",
+    "address1" : "2406 TECH CENTER PKWY STE 200",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "LAWRENCEVILLE",
+    "state" : "GA",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "30043",
+    "zip4" : "1353",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,39 +151,24 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
-  "dcNbr" : null,
-  "regionalDc" : "AT",
+  "dcNbr" : "AT",
+  "regionalDc" : null,
   "dc" : false,
   "storeLocation" : false,
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 5026,
   "shippingObjRef" : null,
-  "siteType" : "Store",
+  "siteType" : "DistributionCenter",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : "KEITH LUCAS",
+  "phone" : "7706824725",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,
@@ -203,7 +183,7 @@
     "onSitePurchaseCarryOut" : false,
     "pickupAtSite" : true,
     "shipFromSite" : true,
-    "shipToSite" : true
+    "shipToSite" : false
   },
   "allowedPaymentTypes" : {
     "accountCredit" : false,
@@ -228,5 +208,5 @@
   "active" : true,
   "processingTime" : 0,
   "siteContacts" : null,
-  "dataDomains" : [ "com.innerworkings", "com.fp" ]
+  "dataDomains" : [ "com.innerworkings", "com.fp", "com.pdc" ]
 }

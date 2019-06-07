@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "ANJ",
+  "refKey" : "f391b3c05f5081400587a9083047a197",
+  "displayName" : "ANNAPOLIS JUNCTION",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "31e37c2adeb437189562e7d3bddf0233",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -51,37 +46,37 @@
   }, {
     "type" : "string",
     "name" : "Location_Region",
-    "value" : "SOUTHEAST",
+    "value" : "NORTHEAST",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Area",
-    "value" : "ALGA",
+    "value" : "MDDE",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "In_City",
-    "value" : "TRUE",
-    "systemInd" : "N",
-    "requiredInd" : "N"
-  }, {
-    "type" : "string",
-    "name" : "Rural",
     "value" : "FALSE",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
+    "name" : "Rural",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "82",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Territory ID",
-    "value" : "SE4",
+    "value" : "NE5",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,7 +88,7 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : "8004401494",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -115,20 +110,20 @@
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "0280a084-5ee3-41b6-8970-4f2ab3ea294f",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "1-ANJ",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "ANJ",
+    "address1" : "10830 GUILFORD RD STE 305",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "ANNAPOLIS JUNCTION",
+    "state" : "MD",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "20701",
+    "zip4" : "1108",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,39 +151,24 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
   "dcNbr" : null,
-  "regionalDc" : "AT",
+  "regionalDc" : "NH",
   "dc" : false,
   "storeLocation" : false,
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 3299,
   "shippingObjRef" : null,
   "siteType" : "Store",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : "DONALD SCHLERETH",
+  "phone" : "3014981002",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,

@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "ALTEC",
+  "refKey" : "9a1675555e37e2e8808b146edac27d1e",
+  "displayName" : "ALTEC CARLISLE, INC. - INACTIVE",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "b8c039b600767fda362c3db7f76c5628",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -51,13 +46,13 @@
   }, {
     "type" : "string",
     "name" : "Location_Region",
-    "value" : "SOUTHEAST",
+    "value" : "NORTHEAST",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Location_Area",
-    "value" : "ALGA",
+    "value" : "NECR",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -75,13 +70,13 @@
   }, {
     "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "995",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
     "name" : "Territory ID",
-    "value" : "SE4",
+    "value" : null,
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,7 +88,7 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : null,
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -115,20 +110,20 @@
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "4c46b123-1985-4544-88dd-67ac08b38d87",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "1-ALTEC",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "ALTEC",
+    "address1" : "269 STATE ST",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "NORTH HAVEN",
+    "state" : "CT",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "06473",
+    "zip4" : "2131",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,39 +151,24 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
   "dcNbr" : null,
-  "regionalDc" : "AT",
+  "regionalDc" : "DCTEX",
   "dc" : false,
   "storeLocation" : false,
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 1995,
   "shippingObjRef" : null,
   "siteType" : "Store",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : null,
+  "phone" : "5197510614",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,

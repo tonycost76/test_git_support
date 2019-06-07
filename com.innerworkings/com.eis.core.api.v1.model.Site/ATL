@@ -1,20 +1,15 @@
 {
-  "refName" : "ABV",
-  "refKey" : "210c1fde6e812171d6579ed0af532611",
-  "displayName" : "ALBERTVILLE-1222222",
+  "refName" : "ATL",
+  "refKey" : "749cb066511f9cb46f6835038300bef3",
+  "displayName" : "ATLANTA",
   "schemaVersion" : null,
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "ALBERTVILLE-1222222" ],
+  "keywords" : [ ],
   "tags" : [ ],
-  "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
-  "auditInfo" : {
-    "creationTs" : null,
-    "createUser" : null,
-    "updateTs" : 1559935583162,
-    "updateUser" : "Tony Costanzo"
-  },
+  "hashSum" : "d5150f5d654a21b20a5a4f4fc0ce21c2",
+  "auditInfo" : null,
   "uiactions" : [ ],
   "forced" : false,
   "objRef" : false,
@@ -63,19 +58,19 @@
   }, {
     "type" : "string",
     "name" : "In_City",
-    "value" : "TRUE",
-    "systemInd" : "N",
-    "requiredInd" : "N"
-  }, {
-    "type" : "string",
-    "name" : "Rural",
     "value" : "FALSE",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
     "type" : "string",
+    "name" : "Rural",
+    "value" : "TRUE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
     "name" : "Main Department",
-    "value" : "100",
+    "value" : "101",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -93,7 +88,7 @@
   }, {
     "type" : "string",
     "name" : "Toll_Free_Number",
-    "value" : "8002992489",
+    "value" : "8008448340",
     "systemInd" : "N",
     "requiredInd" : "N"
   }, {
@@ -115,20 +110,20 @@
     "systemInd" : "N",
     "requiredInd" : "N"
   } ],
-  "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+  "id" : "10d28e09-49e1-4535-8256-eb2389652df8",
   "address" : {
-    "id" : "1-ABV",
+    "id" : "1-ATL",
     "displayName" : null,
     "refName" : null,
-    "addressNameField" : "ABV",
-    "address1" : "8941 US HIGHWAY 431",
+    "addressNameField" : "ATL",
+    "address1" : "701 RUSKIN DR",
     "address2" : null,
     "address3" : null,
-    "city" : "ALBERTVILLE",
-    "state" : "AL",
+    "city" : "FOREST PARK",
+    "state" : "GA",
     "stateName" : null,
-    "zip5" : "35950",
-    "zip4" : "0160",
+    "zip5" : "30297",
+    "zip4" : "1062",
     "postalCode" : null,
     "country" : "US",
     "countryName" : null,
@@ -141,7 +136,7 @@
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
-    "lastValidationAttempt" : 1555372519007,
+    "lastValidationAttempt" : null,
     "roles" : [ "billto", "shipto", "contact" ],
     "residentialStatus" : null
   },
@@ -156,22 +151,7 @@
   "siteInventoryOwner" : null,
   "organization" : null,
   "calendar" : null,
-  "calendars" : {
-    "PickupAtSite" : {
-      "dataDomains" : [ "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarPickupAtSite",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarPickupAtSite"
-    },
-    "ShipToCustomer" : {
-      "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
-      "displayName" : "ABVcalendarShipToCustomer",
-      "objRef" : true,
-      "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
-      "refName" : "ABVcalendarShipToCustomer"
-    }
-  },
+  "calendars" : { },
   "catalogId" : null,
   "dcNbr" : null,
   "regionalDc" : "AT",
@@ -180,15 +160,15 @@
   "vendorLocation" : false,
   "mustAllowOutwardTransfers" : false,
   "allowedInwardTransfers" : [ ],
-  "storeNumber" : 3100,
+  "storeNumber" : 3157,
   "shippingObjRef" : null,
   "siteType" : "Store",
   "defaultInventorySource" : false,
   "storeType" : null,
   "openDate" : null,
   "size" : 0,
-  "managerName" : "Danny Smith",
-  "phone" : "2568785111",
+  "managerName" : "TIM LEFTWHICH",
+  "phone" : "4043618340",
   "receivingPhone" : null,
   "vendorId" : null,
   "fedExAccount" : null,
