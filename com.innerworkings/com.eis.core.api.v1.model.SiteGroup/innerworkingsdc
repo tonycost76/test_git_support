@@ -1,0 +1,997 @@
+{
+  "refName" : "innerworkingsdc",
+  "refKey" : "2d4d96805fedc2d5c602c0236b9391d5",
+  "displayName" : "InnerWorkingsDC",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "InnerWorkingsDC" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1507306921434,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1551713955041,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "6e821545-b4f7-4aef-8f2c-2fcc285f25fc",
+  "siteClusterId" : "b47a6722-0df2-448a-81a6-2164000eb10a",
+  "type" : "DC",
+  "priority" : 1,
+  "agedAllocationHoursPerSite" : 10,
+  "agedAllocationMaxDays" : 10,
+  "sites" : [ {
+    "refName" : "ABQ",
+    "refKey" : "4ecb04e162e2cc703ed82307dc2b5c4c",
+    "displayName" : "ALBUQUERQUE",
+    "schemaVersion" : null,
+    "version" : null,
+    "current" : true,
+    "txId" : null,
+    "keywords" : [ "ALBUQUERQUE" ],
+    "tags" : [ ],
+    "hashSum" : "ae88ba334fcee52d8a3af26c45257e8e",
+    "auditInfo" : {
+      "creationTs" : null,
+      "createUser" : null,
+      "updateTs" : 1559759258591,
+      "updateUser" : "Tony Costanzo"
+    },
+    "uiactions" : [ ],
+    "forced" : false,
+    "objRef" : true,
+    "doNotAudit" : false,
+    "logicallyDeleted" : false,
+    "create" : false,
+    "violationsSet" : null,
+    "dynAttributes" : {
+      "shipStationWarehouseId" : 212511
+    },
+    "internal" : false,
+    "referenceData" : [ {
+      "type" : "string",
+      "name" : "Accepts_Back_Orders",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Allow_Partial_BOFill",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Number",
+      "value" : "2100",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Rate",
+      "value" : ".05813",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Region",
+      "value" : "SOUTHWEST",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Area",
+      "value" : "AZNM",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "In_City",
+      "value" : "TRUE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Rural",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Main Department",
+      "value" : "831",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Territory ID",
+      "value" : "SW1",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Email_Address",
+      "value" : null,
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Toll_Free_Number",
+      "value" : "8667399013",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "OverrideDataDomains",
+      "value" : "com.innerworkings,com.fp",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "AllowedFulfillmentTypes",
+      "value" : "shipToSite,shipFromSite,pickupAtSite",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "InventoryPoolChannels",
+      "value" : "Stoli",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    } ],
+    "id" : "f3da43b6-23e5-4fe2-a15e-079c12037f0f",
+    "address" : {
+      "id" : "1-ABQ",
+      "displayName" : null,
+      "refName" : null,
+      "addressNameField" : "ABQ",
+      "address1" : "1600 2ND ST NW",
+      "address2" : null,
+      "address3" : null,
+      "city" : "ALBUQUERQUE",
+      "state" : "NM",
+      "stateName" : null,
+      "zip5" : "87102",
+      "zip4" : "1447",
+      "postalCode" : null,
+      "country" : "US",
+      "countryName" : null,
+      "coordinates" : {
+        "type" : null,
+        "exact" : false,
+        "longitude" : -106.62,
+        "latitude" : 35.11
+      },
+      "validated" : false,
+      "validationCode" : null,
+      "validationMessage" : null,
+      "lastValidationAttempt" : 1555372594930,
+      "roles" : [ "billto", "contact", "shipto" ],
+      "residentialStatus" : null
+    },
+    "tmz" : null,
+    "shipmentRequestMailboxRefName" : null,
+    "fulfillmentCost" : 0.0,
+    "lineCost" : 0.0,
+    "shipToCustomer" : false,
+    "shipHazardousMaterials" : false,
+    "shipToStore" : false,
+    "dropShip" : false,
+    "siteInventoryOwner" : null,
+    "organization" : null,
+    "calendar" : {
+      "refName" : "test",
+      "refKey" : "43cb38a0f0fa627b5b2f8721ebc7bc5e",
+      "displayName" : "Test",
+      "schemaVersion" : null,
+      "version" : null,
+      "current" : true,
+      "txId" : null,
+      "keywords" : [ "Test" ],
+      "tags" : [ ],
+      "hashSum" : null,
+      "auditInfo" : {
+        "creationTs" : 1551288378162,
+        "createUser" : "Tony Costanzo",
+        "updateTs" : 1551294986955,
+        "updateUser" : "Tony Costanzo"
+      },
+      "uiactions" : [ ],
+      "forced" : false,
+      "objRef" : true,
+      "doNotAudit" : false,
+      "logicallyDeleted" : false,
+      "create" : false,
+      "violationsSet" : null,
+      "dynAttributes" : { },
+      "internal" : false,
+      "referenceData" : [ ],
+      "id" : "8de0ab97-a5e0-43f6-a8da-9d9fa2ae91a2",
+      "name" : "Test",
+      "defaultCalendar" : false,
+      "dayMap" : {
+        "Monday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Tuesday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Wednesday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Thursday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Friday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Saturday" : {
+          "startTime" : null,
+          "endTime" : null,
+          "maxOrdersPerDay" : 0,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        },
+        "Sunday" : {
+          "startTime" : 58260000,
+          "endTime" : 73980000,
+          "maxOrdersPerDay" : 20,
+          "replenishmentDay" : false,
+          "shipDay" : false,
+          "allocate" : false
+        }
+      },
+      "schedules" : [ ],
+      "dataDomains" : [ "com.innerworkings" ]
+    },
+    "calendars" : { },
+    "catalogId" : null,
+    "dcNbr" : null,
+    "regionalDc" : "DA",
+    "dc" : false,
+    "storeLocation" : false,
+    "vendorLocation" : false,
+    "mustAllowOutwardTransfers" : false,
+    "allowedInwardTransfers" : [ ],
+    "storeNumber" : 5336,
+    "shippingObjRef" : null,
+    "siteType" : "Store",
+    "defaultInventorySource" : false,
+    "storeType" : null,
+    "openDate" : null,
+    "size" : 0,
+    "managerName" : "ROBERT SELLERS",
+    "phone" : "5052473000",
+    "receivingPhone" : null,
+    "vendorId" : null,
+    "fedExAccount" : null,
+    "meterNumber" : null,
+    "fedExSubscribeErrors" : [ ],
+    "allowManualShipmentCreation" : true,
+    "contacts" : [ ],
+    "allowedFulfillmentTypes" : {
+      "dropShip" : false,
+      "eligibleForTransfer" : false,
+      "localDelivery" : false,
+      "onSitePurchaseCarryOut" : false,
+      "pickupAtSite" : true,
+      "shipFromSite" : true,
+      "shipToSite" : true
+    },
+    "allowedPaymentTypes" : {
+      "accountCredit" : false,
+      "cash" : false,
+      "credit" : false,
+      "debitCard" : false,
+      "giftCards" : false
+    },
+    "allowedSalesTypes" : {
+      "layaway" : false,
+      "salesBasic" : false,
+      "salesOrder" : false,
+      "workOrder" : false
+    },
+    "addressBooks" : { },
+    "shippingAccounts" : [ ],
+    "parents" : [ ],
+    "fulfillmentServices" : [ ],
+    "timeToAcknowledgeInMin" : 0,
+    "timeOutReason" : "Time Out Rejected",
+    "expectedReceiptsMailboxRefName" : null,
+    "active" : true,
+    "processingTime" : 0,
+    "siteContacts" : null,
+    "dataDomains" : [ "com.innerworkings", "com.fp" ]
+  }, {
+    "refName" : "ABV",
+    "refKey" : "210c1fde6e812171d6579ed0af532611",
+    "displayName" : "ALBERTVILLE",
+    "schemaVersion" : null,
+    "version" : null,
+    "current" : true,
+    "txId" : null,
+    "keywords" : [ "ALBERTVILLE" ],
+    "tags" : [ ],
+    "hashSum" : "b95c7cd3f76b046fb1a7a2d39239404a",
+    "auditInfo" : {
+      "creationTs" : null,
+      "createUser" : null,
+      "updateTs" : 1559935441533,
+      "updateUser" : "Tony Costanzo"
+    },
+    "uiactions" : [ ],
+    "forced" : false,
+    "objRef" : true,
+    "doNotAudit" : false,
+    "logicallyDeleted" : false,
+    "create" : false,
+    "violationsSet" : null,
+    "dynAttributes" : { },
+    "internal" : false,
+    "referenceData" : [ {
+      "type" : "string",
+      "name" : "Accepts_Back_Orders",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Allow_Partial_BOFill",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Number",
+      "value" : "0",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Rate",
+      "value" : ".00000",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Region",
+      "value" : "SOUTHEAST",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Area",
+      "value" : "ALGA",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "In_City",
+      "value" : "TRUE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Rural",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Main Department",
+      "value" : "100",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Territory ID",
+      "value" : "SE4",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Email_Address",
+      "value" : null,
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Toll_Free_Number",
+      "value" : "8002992489",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "OverrideDataDomains",
+      "value" : "com.innerworkings,com.fp",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "AllowedFulfillmentTypes",
+      "value" : "shipToSite,shipFromSite,pickupAtSite",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "InventoryPoolChannels",
+      "value" : "Stoli",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    } ],
+    "id" : "910f8b80-aba1-47d6-9527-783d6d31ec94",
+    "address" : {
+      "id" : "1-ABV",
+      "displayName" : null,
+      "refName" : null,
+      "addressNameField" : "ABV",
+      "address1" : "8941 US HIGHWAY 431",
+      "address2" : null,
+      "address3" : null,
+      "city" : "ALBERTVILLE",
+      "state" : "AL",
+      "stateName" : null,
+      "zip5" : "35950",
+      "zip4" : "0160",
+      "postalCode" : null,
+      "country" : "US",
+      "countryName" : null,
+      "coordinates" : {
+        "type" : null,
+        "exact" : false,
+        "longitude" : 0.0,
+        "latitude" : 0.0
+      },
+      "validated" : false,
+      "validationCode" : null,
+      "validationMessage" : null,
+      "lastValidationAttempt" : 1555372519007,
+      "roles" : [ "billto", "shipto", "contact" ],
+      "residentialStatus" : null
+    },
+    "tmz" : null,
+    "shipmentRequestMailboxRefName" : null,
+    "fulfillmentCost" : 0.0,
+    "lineCost" : 0.0,
+    "shipToCustomer" : false,
+    "shipHazardousMaterials" : false,
+    "shipToStore" : false,
+    "dropShip" : false,
+    "siteInventoryOwner" : null,
+    "organization" : null,
+    "calendar" : null,
+    "calendars" : {
+      "PickupAtSite" : {
+        "dataDomains" : [ "com.innerworkings", "com.fp" ],
+        "displayName" : "ABVcalendarPickupAtSite",
+        "objRef" : true,
+        "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
+        "refName" : "ABVcalendarPickupAtSite"
+      },
+      "ShipToCustomer" : {
+        "dataDomains" : [ "“com.spirits”", "com.innerworkings", "com.fp" ],
+        "displayName" : "ABVcalendarShipToCustomer",
+        "objRef" : true,
+        "objRefType" : "com.eis.core.api.v1.model.SiteCalendar",
+        "refName" : "ABVcalendarShipToCustomer"
+      }
+    },
+    "catalogId" : null,
+    "dcNbr" : null,
+    "regionalDc" : "AT",
+    "dc" : false,
+    "storeLocation" : false,
+    "vendorLocation" : false,
+    "mustAllowOutwardTransfers" : false,
+    "allowedInwardTransfers" : [ ],
+    "storeNumber" : 3100,
+    "shippingObjRef" : null,
+    "siteType" : "Store",
+    "defaultInventorySource" : false,
+    "storeType" : null,
+    "openDate" : null,
+    "size" : 0,
+    "managerName" : "Danny Smith",
+    "phone" : "2568785111",
+    "receivingPhone" : null,
+    "vendorId" : null,
+    "fedExAccount" : null,
+    "meterNumber" : null,
+    "fedExSubscribeErrors" : [ ],
+    "allowManualShipmentCreation" : true,
+    "contacts" : [ ],
+    "allowedFulfillmentTypes" : {
+      "dropShip" : false,
+      "eligibleForTransfer" : false,
+      "localDelivery" : false,
+      "onSitePurchaseCarryOut" : false,
+      "pickupAtSite" : true,
+      "shipFromSite" : true,
+      "shipToSite" : true
+    },
+    "allowedPaymentTypes" : {
+      "accountCredit" : false,
+      "cash" : false,
+      "credit" : false,
+      "debitCard" : false,
+      "giftCards" : false
+    },
+    "allowedSalesTypes" : {
+      "layaway" : false,
+      "salesBasic" : false,
+      "salesOrder" : false,
+      "workOrder" : false
+    },
+    "addressBooks" : { },
+    "shippingAccounts" : [ ],
+    "parents" : [ ],
+    "fulfillmentServices" : [ ],
+    "timeToAcknowledgeInMin" : 0,
+    "timeOutReason" : "Time Out Rejected",
+    "expectedReceiptsMailboxRefName" : null,
+    "active" : true,
+    "processingTime" : 0,
+    "siteContacts" : null,
+    "dataDomains" : [ "com.innerworkings", "com.fp" ]
+  }, {
+    "refName" : "AGP",
+    "refKey" : "ea458a18f36934aae951b2149633b9b0",
+    "displayName" : "AGAWAM",
+    "schemaVersion" : null,
+    "version" : null,
+    "current" : true,
+    "txId" : null,
+    "keywords" : [ ],
+    "tags" : [ ],
+    "hashSum" : "e47d3119143d58224752274288523bd3",
+    "auditInfo" : null,
+    "uiactions" : [ ],
+    "forced" : false,
+    "objRef" : true,
+    "doNotAudit" : false,
+    "logicallyDeleted" : false,
+    "create" : false,
+    "violationsSet" : null,
+    "dynAttributes" : { },
+    "internal" : false,
+    "referenceData" : [ {
+      "type" : "string",
+      "name" : "Accepts_Back_Orders",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Allow_Partial_BOFill",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Number",
+      "value" : "0",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Rate",
+      "value" : ".05000",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Region",
+      "value" : "NORTHEAST",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Area",
+      "value" : "NENO",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "In_City",
+      "value" : "TRUE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Rural",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Main Department",
+      "value" : "620",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Territory ID",
+      "value" : "NE3",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Email_Address",
+      "value" : null,
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Toll_Free_Number",
+      "value" : "8003451999",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "OverrideDataDomains",
+      "value" : "com.innerworkings,com.fp",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "AllowedFulfillmentTypes",
+      "value" : "shipToSite,shipFromSite,pickupAtSite",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "InventoryPoolChannels",
+      "value" : "Stoli",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    } ],
+    "id" : "3a01fe94-28a6-4671-980c-27e5c1e4dec3",
+    "address" : {
+      "id" : "1-AGP",
+      "displayName" : null,
+      "refName" : null,
+      "addressNameField" : "AGP",
+      "address1" : "32 CENTURY ST",
+      "address2" : null,
+      "address3" : null,
+      "city" : "AGAWAM",
+      "state" : "MA",
+      "stateName" : null,
+      "zip5" : "01001",
+      "zip4" : "0000",
+      "postalCode" : null,
+      "country" : "US",
+      "countryName" : null,
+      "coordinates" : {
+        "type" : null,
+        "exact" : false,
+        "longitude" : 0.0,
+        "latitude" : 0.0
+      },
+      "validated" : false,
+      "validationCode" : null,
+      "validationMessage" : null,
+      "lastValidationAttempt" : null,
+      "roles" : [ "billto", "shipto", "contact" ],
+      "residentialStatus" : null
+    },
+    "tmz" : null,
+    "shipmentRequestMailboxRefName" : null,
+    "fulfillmentCost" : 0.0,
+    "lineCost" : 0.0,
+    "shipToCustomer" : false,
+    "shipHazardousMaterials" : false,
+    "shipToStore" : false,
+    "dropShip" : false,
+    "siteInventoryOwner" : null,
+    "organization" : null,
+    "calendar" : null,
+    "calendars" : { },
+    "catalogId" : null,
+    "dcNbr" : null,
+    "regionalDc" : "NH",
+    "dc" : false,
+    "storeLocation" : false,
+    "vendorLocation" : false,
+    "mustAllowOutwardTransfers" : false,
+    "allowedInwardTransfers" : [ ],
+    "storeNumber" : 1170,
+    "shippingObjRef" : null,
+    "siteType" : "Store",
+    "defaultInventorySource" : false,
+    "storeType" : null,
+    "openDate" : null,
+    "size" : 0,
+    "managerName" : "William Cokotis",
+    "phone" : "4137890331",
+    "receivingPhone" : null,
+    "vendorId" : null,
+    "fedExAccount" : null,
+    "meterNumber" : null,
+    "fedExSubscribeErrors" : [ ],
+    "allowManualShipmentCreation" : true,
+    "contacts" : [ ],
+    "allowedFulfillmentTypes" : {
+      "dropShip" : false,
+      "eligibleForTransfer" : false,
+      "localDelivery" : false,
+      "onSitePurchaseCarryOut" : false,
+      "pickupAtSite" : true,
+      "shipFromSite" : true,
+      "shipToSite" : true
+    },
+    "allowedPaymentTypes" : {
+      "accountCredit" : false,
+      "cash" : false,
+      "credit" : false,
+      "debitCard" : false,
+      "giftCards" : false
+    },
+    "allowedSalesTypes" : {
+      "layaway" : false,
+      "salesBasic" : false,
+      "salesOrder" : false,
+      "workOrder" : false
+    },
+    "addressBooks" : { },
+    "shippingAccounts" : [ ],
+    "parents" : [ ],
+    "fulfillmentServices" : [ ],
+    "timeToAcknowledgeInMin" : 0,
+    "timeOutReason" : "Time Out Rejected",
+    "expectedReceiptsMailboxRefName" : null,
+    "active" : true,
+    "processingTime" : 0,
+    "siteContacts" : null,
+    "dataDomains" : [ "com.innerworkings", "com.fp" ]
+  }, {
+    "refName" : "AGS",
+    "refKey" : "9c9274cae7e790d88048b54b08fe6d79",
+    "displayName" : "AGAWAM SHOP",
+    "schemaVersion" : null,
+    "version" : null,
+    "current" : true,
+    "txId" : null,
+    "keywords" : [ ],
+    "tags" : [ ],
+    "hashSum" : "fe6700c8c56692582b1ab9d4340f47db",
+    "auditInfo" : null,
+    "uiactions" : [ ],
+    "forced" : false,
+    "objRef" : true,
+    "doNotAudit" : false,
+    "logicallyDeleted" : false,
+    "create" : false,
+    "violationsSet" : null,
+    "dynAttributes" : { },
+    "internal" : false,
+    "referenceData" : [ {
+      "type" : "string",
+      "name" : "Accepts_Back_Orders",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Allow_Partial_BOFill",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Number",
+      "value" : "0",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Tax_Rate",
+      "value" : ".05000",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Region",
+      "value" : "NORTHEAST",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Area",
+      "value" : "NENO",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "In_City",
+      "value" : "TRUE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Rural",
+      "value" : "FALSE",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Main Department",
+      "value" : "621",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Territory ID",
+      "value" : "NE3",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Location_Email_Address",
+      "value" : null,
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "Toll_Free_Number",
+      "value" : "8662078728",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "OverrideDataDomains",
+      "value" : "com.innerworkings,com.fp",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "AllowedFulfillmentTypes",
+      "value" : "shipToSite,shipFromSite,pickupAtSite",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    }, {
+      "type" : "string",
+      "name" : "InventoryPoolChannels",
+      "value" : "Stoli",
+      "systemInd" : "N",
+      "requiredInd" : "N"
+    } ],
+    "id" : "b64abf31-9dbd-44b8-9161-fbbbd5940e2e",
+    "address" : {
+      "id" : "1-AGS",
+      "displayName" : null,
+      "refName" : null,
+      "addressNameField" : "AGS",
+      "address1" : "32 CENTURY ST",
+      "address2" : null,
+      "address3" : null,
+      "city" : "AGAWAM",
+      "state" : "MA",
+      "stateName" : null,
+      "zip5" : "01001",
+      "zip4" : "2013",
+      "postalCode" : null,
+      "country" : "US",
+      "countryName" : null,
+      "coordinates" : {
+        "type" : null,
+        "exact" : false,
+        "longitude" : 0.0,
+        "latitude" : 0.0
+      },
+      "validated" : false,
+      "validationCode" : null,
+      "validationMessage" : null,
+      "lastValidationAttempt" : null,
+      "roles" : [ "billto", "shipto", "contact" ],
+      "residentialStatus" : null
+    },
+    "tmz" : null,
+    "shipmentRequestMailboxRefName" : null,
+    "fulfillmentCost" : 0.0,
+    "lineCost" : 0.0,
+    "shipToCustomer" : false,
+    "shipHazardousMaterials" : false,
+    "shipToStore" : false,
+    "dropShip" : false,
+    "siteInventoryOwner" : null,
+    "organization" : null,
+    "calendar" : null,
+    "calendars" : { },
+    "catalogId" : null,
+    "dcNbr" : null,
+    "regionalDc" : "NH",
+    "dc" : false,
+    "storeLocation" : false,
+    "vendorLocation" : false,
+    "mustAllowOutwardTransfers" : false,
+    "allowedInwardTransfers" : [ ],
+    "storeNumber" : 1168,
+    "shippingObjRef" : null,
+    "siteType" : "Store",
+    "defaultInventorySource" : false,
+    "storeType" : null,
+    "openDate" : null,
+    "size" : 0,
+    "managerName" : "CHUCK ELLSWORTH",
+    "phone" : "4137890331",
+    "receivingPhone" : null,
+    "vendorId" : null,
+    "fedExAccount" : null,
+    "meterNumber" : null,
+    "fedExSubscribeErrors" : [ ],
+    "allowManualShipmentCreation" : true,
+    "contacts" : [ ],
+    "allowedFulfillmentTypes" : {
+      "dropShip" : false,
+      "eligibleForTransfer" : false,
+      "localDelivery" : false,
+      "onSitePurchaseCarryOut" : false,
+      "pickupAtSite" : true,
+      "shipFromSite" : true,
+      "shipToSite" : true
+    },
+    "allowedPaymentTypes" : {
+      "accountCredit" : false,
+      "cash" : false,
+      "credit" : false,
+      "debitCard" : false,
+      "giftCards" : false
+    },
+    "allowedSalesTypes" : {
+      "layaway" : false,
+      "salesBasic" : false,
+      "salesOrder" : false,
+      "workOrder" : false
+    },
+    "addressBooks" : { },
+    "shippingAccounts" : [ ],
+    "parents" : [ ],
+    "fulfillmentServices" : [ ],
+    "timeToAcknowledgeInMin" : 0,
+    "timeOutReason" : "Time Out Rejected",
+    "expectedReceiptsMailboxRefName" : null,
+    "active" : true,
+    "processingTime" : 0,
+    "siteContacts" : null,
+    "dataDomains" : [ "com.innerworkings", "com.fp" ]
+  } ],
+  "dataDomains" : [ "com.innerworkings" ]
+}
