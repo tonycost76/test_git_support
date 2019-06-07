@@ -1,0 +1,212 @@
+{
+  "refName" : "BRG",
+  "refKey" : "3f84381f136bda50f6e001e6d807eb33",
+  "displayName" : "BRIDGEVIEW",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ ],
+  "tags" : [ ],
+  "hashSum" : "c30d1a252e45af0c451575f9b1fedcd3",
+  "auditInfo" : null,
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ {
+    "type" : "string",
+    "name" : "Accepts_Back_Orders",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Allow_Partial_BOFill",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Number",
+    "value" : "0",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Rate",
+    "value" : ".00000",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Region",
+    "value" : "N CENTRAL",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Area",
+    "value" : "NOIL",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "In_City",
+    "value" : "TRUE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Rural",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Main Department",
+    "value" : "481",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Territory ID",
+    "value" : "NC2",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Email_Address",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Toll_Free_Number",
+    "value" : "8005445301",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "OverrideDataDomains",
+    "value" : "com.innerworkings,com.fp",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "AllowedFulfillmentTypes",
+    "value" : "shipToSite,shipFromSite,pickupAtSite",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "InventoryPoolChannels",
+    "value" : "Stoli",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  } ],
+  "id" : "b2f9a6f9-dc22-474f-a2d5-0b4fae0009ee",
+  "address" : {
+    "id" : "1-BRG",
+    "displayName" : null,
+    "refName" : null,
+    "addressNameField" : "BRG",
+    "address1" : "7400 W 87TH ST",
+    "address2" : null,
+    "address3" : null,
+    "city" : "BRIDGEVIEW",
+    "state" : "IL",
+    "stateName" : null,
+    "zip5" : "60455",
+    "zip4" : "1826",
+    "postalCode" : null,
+    "country" : "US",
+    "countryName" : null,
+    "coordinates" : {
+      "type" : null,
+      "exact" : false,
+      "longitude" : 0.0,
+      "latitude" : 0.0
+    },
+    "validated" : false,
+    "validationCode" : null,
+    "validationMessage" : null,
+    "lastValidationAttempt" : null,
+    "roles" : [ "billto", "shipto", "contact" ],
+    "residentialStatus" : null
+  },
+  "tmz" : null,
+  "shipmentRequestMailboxRefName" : null,
+  "fulfillmentCost" : 0.0,
+  "lineCost" : 0.0,
+  "shipToCustomer" : false,
+  "shipHazardousMaterials" : false,
+  "shipToStore" : false,
+  "dropShip" : false,
+  "siteInventoryOwner" : null,
+  "organization" : null,
+  "calendar" : null,
+  "calendars" : { },
+  "catalogId" : null,
+  "dcNbr" : null,
+  "regionalDc" : "BB",
+  "dc" : false,
+  "storeLocation" : false,
+  "vendorLocation" : false,
+  "mustAllowOutwardTransfers" : false,
+  "allowedInwardTransfers" : [ ],
+  "storeNumber" : 5343,
+  "shippingObjRef" : null,
+  "siteType" : "Store",
+  "defaultInventorySource" : false,
+  "storeType" : null,
+  "openDate" : null,
+  "size" : 0,
+  "managerName" : "Byron Brown",
+  "phone" : "7084302081",
+  "receivingPhone" : null,
+  "vendorId" : null,
+  "fedExAccount" : null,
+  "meterNumber" : null,
+  "fedExSubscribeErrors" : [ ],
+  "allowManualShipmentCreation" : true,
+  "contacts" : [ ],
+  "allowedFulfillmentTypes" : {
+    "dropShip" : false,
+    "eligibleForTransfer" : false,
+    "localDelivery" : false,
+    "onSitePurchaseCarryOut" : false,
+    "pickupAtSite" : true,
+    "shipFromSite" : true,
+    "shipToSite" : true
+  },
+  "allowedPaymentTypes" : {
+    "accountCredit" : false,
+    "cash" : false,
+    "credit" : false,
+    "debitCard" : false,
+    "giftCards" : false
+  },
+  "allowedSalesTypes" : {
+    "layaway" : false,
+    "salesBasic" : false,
+    "salesOrder" : false,
+    "workOrder" : false
+  },
+  "addressBooks" : { },
+  "shippingAccounts" : [ ],
+  "parents" : [ ],
+  "fulfillmentServices" : [ ],
+  "timeToAcknowledgeInMin" : 0,
+  "timeOutReason" : "Time Out Rejected",
+  "expectedReceiptsMailboxRefName" : null,
+  "active" : true,
+  "processingTime" : 0,
+  "siteContacts" : null,
+  "dataDomains" : [ "com.innerworkings", "com.fp" ]
+}

@@ -1,0 +1,212 @@
+{
+  "refName" : "CHI",
+  "refKey" : "33c9a1ada517239c7830ede9f9ba6435",
+  "displayName" : "CHICAGO",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ ],
+  "tags" : [ ],
+  "hashSum" : "3258b84c08de1eb8b0e684925b07ea14",
+  "auditInfo" : null,
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ {
+    "type" : "string",
+    "name" : "Accepts_Back_Orders",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Allow_Partial_BOFill",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Number",
+    "value" : "0",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Rate",
+    "value" : ".00000",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Region",
+    "value" : "N CENTRAL",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Area",
+    "value" : "NOIL",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "In_City",
+    "value" : "TRUE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Rural",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Main Department",
+    "value" : "482",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Territory ID",
+    "value" : "NC2",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Email_Address",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Toll_Free_Number",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "OverrideDataDomains",
+    "value" : "com.innerworkings,com.fp",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "AllowedFulfillmentTypes",
+    "value" : "shipToSite,shipFromSite,pickupAtSite",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "InventoryPoolChannels",
+    "value" : "Stoli",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  } ],
+  "id" : "72a9f447-9c86-4f27-b6d5-d9e99470dad6",
+  "address" : {
+    "id" : "1-CHI",
+    "displayName" : null,
+    "refName" : null,
+    "addressNameField" : "CHI",
+    "address1" : "4404 S KILDARE AVE",
+    "address2" : null,
+    "address3" : null,
+    "city" : "CHICAGO",
+    "state" : "IL",
+    "stateName" : null,
+    "zip5" : "60632",
+    "zip4" : "4317",
+    "postalCode" : null,
+    "country" : "US",
+    "countryName" : null,
+    "coordinates" : {
+      "type" : null,
+      "exact" : false,
+      "longitude" : 0.0,
+      "latitude" : 0.0
+    },
+    "validated" : false,
+    "validationCode" : null,
+    "validationMessage" : null,
+    "lastValidationAttempt" : null,
+    "roles" : [ "billto", "shipto", "contact" ],
+    "residentialStatus" : null
+  },
+  "tmz" : null,
+  "shipmentRequestMailboxRefName" : null,
+  "fulfillmentCost" : 0.0,
+  "lineCost" : 0.0,
+  "shipToCustomer" : false,
+  "shipHazardousMaterials" : false,
+  "shipToStore" : false,
+  "dropShip" : false,
+  "siteInventoryOwner" : null,
+  "organization" : null,
+  "calendar" : null,
+  "calendars" : { },
+  "catalogId" : null,
+  "dcNbr" : null,
+  "regionalDc" : "BB",
+  "dc" : false,
+  "storeLocation" : false,
+  "vendorLocation" : false,
+  "mustAllowOutwardTransfers" : false,
+  "allowedInwardTransfers" : [ ],
+  "storeNumber" : 5344,
+  "shippingObjRef" : null,
+  "siteType" : "Store",
+  "defaultInventorySource" : false,
+  "storeType" : null,
+  "openDate" : null,
+  "size" : 0,
+  "managerName" : "LOREN HOUTCHENS",
+  "phone" : "7735817200",
+  "receivingPhone" : null,
+  "vendorId" : null,
+  "fedExAccount" : null,
+  "meterNumber" : null,
+  "fedExSubscribeErrors" : [ ],
+  "allowManualShipmentCreation" : true,
+  "contacts" : [ ],
+  "allowedFulfillmentTypes" : {
+    "dropShip" : false,
+    "eligibleForTransfer" : false,
+    "localDelivery" : false,
+    "onSitePurchaseCarryOut" : false,
+    "pickupAtSite" : true,
+    "shipFromSite" : true,
+    "shipToSite" : true
+  },
+  "allowedPaymentTypes" : {
+    "accountCredit" : false,
+    "cash" : false,
+    "credit" : false,
+    "debitCard" : false,
+    "giftCards" : false
+  },
+  "allowedSalesTypes" : {
+    "layaway" : false,
+    "salesBasic" : false,
+    "salesOrder" : false,
+    "workOrder" : false
+  },
+  "addressBooks" : { },
+  "shippingAccounts" : [ ],
+  "parents" : [ ],
+  "fulfillmentServices" : [ ],
+  "timeToAcknowledgeInMin" : 0,
+  "timeOutReason" : "Time Out Rejected",
+  "expectedReceiptsMailboxRefName" : null,
+  "active" : true,
+  "processingTime" : 0,
+  "siteContacts" : null,
+  "dataDomains" : [ "com.innerworkings", "com.fp" ]
+}

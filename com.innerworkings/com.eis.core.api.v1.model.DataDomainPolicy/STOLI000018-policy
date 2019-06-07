@@ -1,0 +1,201 @@
+{
+  "refName" : "STOLI000018-policy",
+  "refKey" : "0b4ed690215b8cabd285615e721d332a",
+  "displayName" : "STOLI000018-policy",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "STOLI000018-policy" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1520544579174,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "fe83c2e8-b7e9-43df-9838-53f401978a90",
+  "entries" : {
+    "Client:Create" : {
+      "functionalDomainString" : "Client",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Client:List" : {
+      "functionalDomainString" : "Client",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Client:View" : {
+      "functionalDomainString" : "Client",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Correlation:Create" : {
+      "functionalDomainString" : "Correlation",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Correlation:List" : {
+      "functionalDomainString" : "Correlation",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Correlation:Update" : {
+      "functionalDomainString" : "Correlation",
+      "functionalActionString" : "Update",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Correleation:View" : {
+      "functionalDomainString" : "Correleation",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Customer:Create" : {
+      "functionalDomainString" : "Customer",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Customer:List" : {
+      "functionalDomainString" : "Customer",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Customer:View" : {
+      "functionalDomainString" : "Customer",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "PurchaseOrder:Create" : {
+      "functionalDomainString" : "PurchaseOrder",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "PurchaseOrder:View" : {
+      "functionalDomainString" : "PurchaseOrder",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "SalesOrder:Create" : {
+      "functionalDomainString" : "SalesOrder",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "SalesOrder:List" : {
+      "functionalDomainString" : "SalesOrder",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "SalesOrder:View" : {
+      "functionalDomainString" : "SalesOrder",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Script:Execute" : {
+      "functionalDomainString" : "Script",
+      "functionalActionString" : "Execute",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Shipment:List" : {
+      "functionalDomainString" : "Shipment",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Shipment:View" : {
+      "functionalDomainString" : "Shipment",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "ShipmentRequest:Ack" : {
+      "functionalDomainString" : "ShipmentRequest",
+      "functionalActionString" : "Ack",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "ShipmentRequest:Create" : {
+      "functionalDomainString" : "ShipmentRequest",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "ShipmentRequest:List" : {
+      "functionalDomainString" : "ShipmentRequest",
+      "functionalActionString" : "List",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "ShipmentRequest:Reject" : {
+      "functionalDomainString" : "ShipmentRequest",
+      "functionalActionString" : "Reject",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "ShipmentRequest:View" : {
+      "functionalDomainString" : "ShipmentRequest",
+      "functionalActionString" : "View",
+      "dataDomains" : [ "com.innerworkings.stoli.STOLI000018" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    },
+    "Variant:Create" : {
+      "functionalDomainString" : "Variant",
+      "functionalActionString" : "Create",
+      "dataDomains" : [ "com.innerworkings", "com.innerworkings.stoli.STOLI000018", "com.innerworkings.stoli" ],
+      "filter" : null,
+      "dynamicDataDomains" : null
+    }
+  },
+  "dataDomainContexts" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

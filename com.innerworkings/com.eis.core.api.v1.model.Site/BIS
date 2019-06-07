@@ -1,0 +1,212 @@
+{
+  "refName" : "BIS",
+  "refKey" : "983fed4c494ef54c7e909c75a20fd91c",
+  "displayName" : "BIRMINGHAM BRAKE SHOP",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ ],
+  "tags" : [ ],
+  "hashSum" : "5ae1a23d0fe1cf22bda98d24fea732d8",
+  "auditInfo" : null,
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ {
+    "type" : "string",
+    "name" : "Accepts_Back_Orders",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Allow_Partial_BOFill",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Number",
+    "value" : "0",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Tax_Rate",
+    "value" : ".00000",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Region",
+    "value" : "BRAKEREMAN",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Area",
+    "value" : "BRRE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "In_City",
+    "value" : "TRUE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Rural",
+    "value" : "FALSE",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Main Department",
+    "value" : "115",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Territory ID",
+    "value" : "WE4",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Location_Email_Address",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "Toll_Free_Number",
+    "value" : null,
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "OverrideDataDomains",
+    "value" : "com.innerworkings,com.fp",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "AllowedFulfillmentTypes",
+    "value" : "shipToSite,shipFromSite,pickupAtSite",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  }, {
+    "type" : "string",
+    "name" : "InventoryPoolChannels",
+    "value" : "Stoli",
+    "systemInd" : "N",
+    "requiredInd" : "N"
+  } ],
+  "id" : "34480538-2f8a-4e3a-80aa-9a6020bdad78",
+  "address" : {
+    "id" : "1-BIS",
+    "displayName" : null,
+    "refName" : null,
+    "addressNameField" : "BIS",
+    "address1" : "2831 2ND AVE N",
+    "address2" : null,
+    "address3" : null,
+    "city" : "BIRMINGHAM",
+    "state" : "AL",
+    "stateName" : null,
+    "zip5" : "35203",
+    "zip4" : "3905",
+    "postalCode" : null,
+    "country" : "US",
+    "countryName" : null,
+    "coordinates" : {
+      "type" : null,
+      "exact" : false,
+      "longitude" : 0.0,
+      "latitude" : 0.0
+    },
+    "validated" : false,
+    "validationCode" : null,
+    "validationMessage" : null,
+    "lastValidationAttempt" : null,
+    "roles" : [ "billto", "shipto", "contact" ],
+    "residentialStatus" : null
+  },
+  "tmz" : null,
+  "shipmentRequestMailboxRefName" : null,
+  "fulfillmentCost" : 0.0,
+  "lineCost" : 0.0,
+  "shipToCustomer" : false,
+  "shipHazardousMaterials" : false,
+  "shipToStore" : false,
+  "dropShip" : false,
+  "siteInventoryOwner" : null,
+  "organization" : null,
+  "calendar" : null,
+  "calendars" : { },
+  "catalogId" : null,
+  "dcNbr" : null,
+  "regionalDc" : "AT",
+  "dc" : false,
+  "storeLocation" : false,
+  "vendorLocation" : false,
+  "mustAllowOutwardTransfers" : false,
+  "allowedInwardTransfers" : [ ],
+  "storeNumber" : 3111,
+  "shippingObjRef" : null,
+  "siteType" : "Store",
+  "defaultInventorySource" : false,
+  "storeType" : null,
+  "openDate" : null,
+  "size" : 0,
+  "managerName" : "JOE BLOW",
+  "phone" : "2053227517",
+  "receivingPhone" : null,
+  "vendorId" : null,
+  "fedExAccount" : null,
+  "meterNumber" : null,
+  "fedExSubscribeErrors" : [ ],
+  "allowManualShipmentCreation" : true,
+  "contacts" : [ ],
+  "allowedFulfillmentTypes" : {
+    "dropShip" : false,
+    "eligibleForTransfer" : false,
+    "localDelivery" : false,
+    "onSitePurchaseCarryOut" : false,
+    "pickupAtSite" : true,
+    "shipFromSite" : true,
+    "shipToSite" : true
+  },
+  "allowedPaymentTypes" : {
+    "accountCredit" : false,
+    "cash" : false,
+    "credit" : false,
+    "debitCard" : false,
+    "giftCards" : false
+  },
+  "allowedSalesTypes" : {
+    "layaway" : false,
+    "salesBasic" : false,
+    "salesOrder" : false,
+    "workOrder" : false
+  },
+  "addressBooks" : { },
+  "shippingAccounts" : [ ],
+  "parents" : [ ],
+  "fulfillmentServices" : [ ],
+  "timeToAcknowledgeInMin" : 0,
+  "timeOutReason" : "Time Out Rejected",
+  "expectedReceiptsMailboxRefName" : null,
+  "active" : true,
+  "processingTime" : 0,
+  "siteContacts" : null,
+  "dataDomains" : [ "com.innerworkings", "com.fp" ]
+}
