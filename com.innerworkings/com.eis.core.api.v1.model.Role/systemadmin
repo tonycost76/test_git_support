@@ -1,0 +1,83 @@
+{
+  "refName" : "systemadmin",
+  "refKey" : "e23db4cfbba3c22a1a4eac86a83f02ee",
+  "displayName" : "SystemAdmin",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "SystemAdmin" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1510248669785,
+    "createUser" : "Praveen Subba Rao",
+    "updateTs" : 1510248918970,
+    "updateUser" : "Praveen Subba Rao"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "c7ae33f1-9aaf-4511-a89e-ffca32203eb0",
+  "capabilityPermissions" : [ {
+    "refName" : "RootSystemAdmin|app.cantata",
+    "permittedDataDomain" : "app.cantata",
+    "capability" : {
+      "refName" : "RootSystemAdmin",
+      "refKey" : "07202b04ee4ad73515e879165f76ea8d",
+      "displayName" : "RootSystemAdmin",
+      "schemaVersion" : null,
+      "version" : null,
+      "current" : true,
+      "txId" : null,
+      "keywords" : [ "RootSystemAdmin" ],
+      "tags" : [ ],
+      "hashSum" : null,
+      "auditInfo" : {
+        "creationTs" : null,
+        "createUser" : null,
+        "updateTs" : 1493812227913,
+        "updateUser" : "System: Root"
+      },
+      "uiactions" : [ ],
+      "forced" : false,
+      "objRef" : true,
+      "doNotAudit" : false,
+      "logicallyDeleted" : false,
+      "create" : false,
+      "violationsSet" : null,
+      "dynAttributes" : { },
+      "internal" : false,
+      "referenceData" : [ ],
+      "id" : "dbb6066b-cc2f-4e98-a7b2-3e896e5f7912",
+      "functionalPermissions" : [ {
+        "functionalDomainObjRef" : {
+          "refName" : "*",
+          "refId" : null,
+          "refKey" : "81f3ef2b96f9ab079e8e9e57ee721445",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "*",
+        "refName" : "*:*",
+        "displayName" : null
+      } ],
+      "dataDomains" : [ "app.cantata" ]
+    },
+    "displayName" : null
+  } ],
+  "roleType" : "USER_ROLE",
+  "dataDomains" : [ "com.innerworkings" ]
+}

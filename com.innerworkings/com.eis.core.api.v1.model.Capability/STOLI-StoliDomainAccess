@@ -1,0 +1,159 @@
+{
+  "refName" : "STOLI-StoliDomainAccess",
+  "refKey" : "2a508cffcd58634d0cdb84fdb2a65d49",
+  "displayName" : "STOLI-StoliDomainAccess",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "STOLI-StoliDomainAccess" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1518397272666,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1520438621395,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "c2ad67f6-f34f-4737-bd4f-392e54642b86",
+  "functionalPermissions" : [ {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Create",
+    "refName" : "SalesOrder:Create",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Create",
+    "refName" : "ShipmentRequest:Create",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "FileSystemEntry:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "FileSystemEntry:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Create",
+    "refName" : "PurchaseOrder:Create",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Organization",
+      "refId" : null,
+      "refKey" : "dd9486b5da61e747e645ef3fdbb065e8",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "Organization:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Organization",
+      "refId" : null,
+      "refKey" : "dd9486b5da61e747e645ef3fdbb065e8",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "Organization:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : "SalesOrder",
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "SalesOrder:CreateLine",
+    "refName" : "SalesOrder:CreateLine",
+    "displayName" : null
+  } ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

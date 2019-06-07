@@ -1,0 +1,515 @@
+{
+  "refName" : "managepabst-inventorypool",
+  "refKey" : "ff8d0075542319d20e18b31b5cf45043",
+  "displayName" : "ManagePabst-InventoryPool",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "ManagePabst-InventoryPool" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1521216974990,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1535487717231,
+    "updateUser" : "Tony Costanzo"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "31a3794d-ab5b-41d8-9fb5-610d929963d7",
+  "capabilityPermissions" : [ {
+    "refName" : "manageinventorypools|com.innerworkings.pabst",
+    "permittedDataDomain" : "com.innerworkings.pabst",
+    "capability" : {
+      "refName" : "manageinventorypools",
+      "refKey" : "f44cef335490ff5fd26a17346f7c4d40",
+      "displayName" : "Manage Inventory Pools",
+      "schemaVersion" : null,
+      "version" : null,
+      "current" : true,
+      "txId" : null,
+      "keywords" : [ "Manage Inventory Pools" ],
+      "tags" : [ ],
+      "hashSum" : null,
+      "auditInfo" : {
+        "creationTs" : 1493812229291,
+        "createUser" : "System: Root",
+        "updateTs" : 1510243261432,
+        "updateUser" : "System: Root"
+      },
+      "uiactions" : [ ],
+      "forced" : false,
+      "objRef" : true,
+      "doNotAudit" : false,
+      "logicallyDeleted" : false,
+      "create" : false,
+      "violationsSet" : null,
+      "dynAttributes" : { },
+      "internal" : false,
+      "referenceData" : [ ],
+      "id" : "65414bd8-da4c-487e-8326-8fc3ffb8278b",
+      "functionalPermissions" : [ {
+        "functionalDomainObjRef" : {
+          "refName" : "Dashboard",
+          "refId" : null,
+          "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "ViewInventoryTile",
+        "refName" : "Dashboard:ViewInventoryTile",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Delete",
+        "refName" : "InventoryPool:Delete",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "InventoryPool:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "InventoryPool:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "ExportCSV",
+        "refName" : "InventoryPool:ExportCSV",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Create",
+        "refName" : "InventoryPool:Create",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Update",
+        "refName" : "InventoryPool:Update",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPool",
+          "refId" : null,
+          "refKey" : "65183731760afcc2a74247879a94410b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "UI-View",
+        "refName" : "InventoryPool:UI-View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Delete",
+        "refName" : "InventoryPoolEntry:Delete",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "InventoryPoolEntry:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Transfer",
+        "refName" : "InventoryPoolEntry:Transfer",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "InventoryPoolEntry:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Create",
+        "refName" : "InventoryPoolEntry:Create",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Update",
+        "refName" : "InventoryPoolEntry:Update",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntry",
+          "refId" : null,
+          "refKey" : "8a734a94bc5b0fc595395eb928deeb78",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "UI-View",
+        "refName" : "InventoryPoolEntry:UI-View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Create",
+        "refName" : "InventoryPoolEntryAuditLog:Create",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Delete",
+        "refName" : "InventoryPoolEntryAuditLog:Delete",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "InventoryPoolEntryAuditLog:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "Update",
+        "refName" : "InventoryPoolEntryAuditLog:Update",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "InventoryPoolEntryAuditLog:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryPoolEntryAuditLog",
+          "refId" : null,
+          "refKey" : "827fa61c020ab8d65d2a906aabff6043",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "UI-View",
+        "refName" : "InventoryPoolEntryAuditLog:UI-View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Product",
+          "refId" : null,
+          "refKey" : "f270e57a46f9cddee87676b40bb11212",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "Product:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Product",
+          "refId" : null,
+          "refKey" : "f270e57a46f9cddee87676b40bb11212",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "Product:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Catalog",
+          "refId" : null,
+          "refKey" : "e5c5f2379965d1d768fd31d045ecde7b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "Catalog:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Catalog",
+          "refId" : null,
+          "refKey" : "e5c5f2379965d1d768fd31d045ecde7b",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "Catalog:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Channel",
+          "refId" : null,
+          "refKey" : "c44c3eee55c26c07b41a6c6def954f73",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "View",
+        "refName" : "Channel:View",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "Channel",
+          "refId" : null,
+          "refKey" : "c44c3eee55c26c07b41a6c6def954f73",
+          "displayName" : null,
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "List",
+        "refName" : "Channel:List",
+        "displayName" : null
+      }, {
+        "functionalDomainObjRef" : {
+          "refName" : "InventoryLookup",
+          "refId" : null,
+          "refKey" : "db43812a2d62544bd5d797d104255e35",
+          "displayName" : "InventoryLookup",
+          "dataDomain" : "app.cantata",
+          "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+          "nullable" : false,
+          "internal" : false,
+          "parentId" : null,
+          "parentType" : null
+        },
+        "functionalAction" : "UI-View",
+        "refName" : "InventoryLookup:UI-View",
+        "displayName" : "InventoryLookup:UI-View"
+      } ],
+      "dataDomains" : [ "app.cantata" ]
+    },
+    "displayName" : null
+  } ],
+  "roleType" : "USER_ROLE",
+  "dataDomains" : [ "com.innerworkings" ]
+}

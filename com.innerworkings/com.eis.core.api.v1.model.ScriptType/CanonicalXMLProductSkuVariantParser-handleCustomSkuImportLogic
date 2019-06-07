@@ -1,0 +1,123 @@
+{
+  "refName" : "CanonicalXMLProductSkuVariantParser-handleCustomSkuImportLogic",
+  "refKey" : "e7bd2cc928ecab01a13fc2397dd94991",
+  "displayName" : "CanonicalXMLProductSkuVariantParser-handleCustomSkuImportLogic",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "CanonicalXMLProductSkuVariantParser-handleCustomSkuImportLogic" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1545407115437,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "a2ef371b-ced3-45aa-b5cf-426164904553",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "dataDomain" : {
+        "id" : null,
+        "refName" : "dataDomain",
+        "type" : "String",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "dataDomain",
+        "description" : null
+      },
+      "skus" : {
+        "id" : null,
+        "refName" : "skus",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "skus",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : {
+    "catalogService" : {
+      "type" : "serviceBean",
+      "name" : "catalogService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "catalogService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "dataDomain" : {
+      "type" : "scriptInputVariable",
+      "name" : "dataDomain",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "dataDomain",
+      "parameters" : { }
+    },
+    "scriptUtils" : {
+      "type" : "javaBean",
+      "name" : "scriptUtils",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "skus" : {
+      "type" : "scriptInputVariable",
+      "name" : "skus",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : "skus",
+      "parameters" : { }
+    },
+    "taskHelper" : {
+      "type" : "javaBean",
+      "name" : "taskHelper",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : null,
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

@@ -1,0 +1,767 @@
+{
+  "refName" : "STOLI-fullStoliAccess",
+  "refKey" : "c101e223fbdc7d9ef2fe486237d16183",
+  "displayName" : "STOLI-fullStoliAccess",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "STOLI-fullStoliAccess" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1519069129031,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1520438555962,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "767c16e4-2d8c-4ce2-a0cb-0d6dbd1fd3cc",
+  "functionalPermissions" : [ {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Allocate",
+    "refName" : "SalesOrder:Allocate",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Summary",
+    "refName" : "SalesOrder:Summary",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "SalesOrder:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "SalesOrder:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ViewLogs",
+    "refName" : "SalesOrder:ViewLogs",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "SalesOrder:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "SalesOrder:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ViewErrors",
+    "refName" : "SalesOrder:ViewErrors",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ExportCSV",
+    "refName" : "SalesOrder:ExportCSV",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "SalesOrder",
+      "refId" : null,
+      "refKey" : "e5c65042299f718907c6cb2014df981a",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Release",
+    "refName" : "SalesOrder:Release",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Shipment",
+      "refId" : null,
+      "refKey" : "f5e9558752e14285fea3544a9599f681",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "Shipment:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Shipment",
+      "refId" : null,
+      "refKey" : "f5e9558752e14285fea3544a9599f681",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Shipment:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Shipment",
+      "refId" : null,
+      "refKey" : "f5e9558752e14285fea3544a9599f681",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "Shipment:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Shipment",
+      "refId" : null,
+      "refKey" : "f5e9558752e14285fea3544a9599f681",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Shipment:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "ShipmentRequest:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "ShipmentRequest:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "ShipmentRequest:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Summary",
+    "refName" : "ShipmentRequest:Summary",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "ShipmentRequest:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "ShipmentRequest",
+      "refId" : null,
+      "refKey" : "3a4d5f247387e98063d205d77379df2d",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ExportCSV",
+    "refName" : "ShipmentRequest:ExportCSV",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "FileSystemEntry:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "FileSystemEntry:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Update",
+    "refName" : "FileSystemEntry:Update",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Dashboard",
+      "refId" : null,
+      "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Dashboard:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Dashboard",
+      "refId" : null,
+      "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Dashboard:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Dashboard",
+      "refId" : null,
+      "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ViewOrdersTile",
+    "refName" : "Dashboard:ViewOrdersTile",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Dashboard",
+      "refId" : null,
+      "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ViewSearchTile",
+    "refName" : "Dashboard:ViewSearchTile",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Dashboard",
+      "refId" : null,
+      "refKey" : "6d807263311456555a99ba2e5e5f3a84",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "ViewFulfillmentTile",
+    "refName" : "Dashboard:ViewFulfillmentTile",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Customer",
+      "refId" : null,
+      "refKey" : "f16d4416663afbfdf66c4ba319a54587",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "Customer:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Customer",
+      "refId" : null,
+      "refKey" : "f16d4416663afbfdf66c4ba319a54587",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Customer:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Customer",
+      "refId" : null,
+      "refKey" : "f16d4416663afbfdf66c4ba319a54587",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "Customer:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Customer",
+      "refId" : null,
+      "refKey" : "f16d4416663afbfdf66c4ba319a54587",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Customer:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Ledger",
+      "refId" : null,
+      "refKey" : "aa0a775c1513a8ad36a659fb8d7d23bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "Ledger:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Ledger",
+      "refId" : null,
+      "refKey" : "aa0a775c1513a8ad36a659fb8d7d23bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "Ledger:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Ledger",
+      "refId" : null,
+      "refKey" : "aa0a775c1513a8ad36a659fb8d7d23bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "Ledger:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Correlation",
+      "refId" : null,
+      "refKey" : "95ce6070e23635b7f5b0584d07775d46",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "Correlation:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "Correlation",
+      "refId" : null,
+      "refKey" : "95ce6070e23635b7f5b0584d07775d46",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "Correlation:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "CustomerProfile",
+      "refId" : null,
+      "refKey" : "d096294508a1b18d23067163bf47b867",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "CustomerProfile:View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "CustomerProfile",
+      "refId" : null,
+      "refKey" : "d096294508a1b18d23067163bf47b867",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "CustomerProfile:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Create",
+    "refName" : "FileSystemEntry:Create",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "FileSystemEntry",
+      "refId" : null,
+      "refKey" : "d4712227fa224be06dc95f050b7064bc",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Update",
+    "refName" : "FileSystemEntry:Update",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "Summary",
+    "refName" : "PurchaseOrder:Summary",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "PurchaseOrder:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "List",
+    "refName" : "PurchaseOrder:List",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "UI-View",
+    "refName" : "PurchaseOrder:UI-View",
+    "displayName" : null
+  }, {
+    "functionalDomainObjRef" : {
+      "refName" : "PurchaseOrder",
+      "refId" : null,
+      "refKey" : "32e2f4fb1bc437e23773063475ce8845",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "View",
+    "refName" : "PurchaseOrder:View",
+    "displayName" : null
+  } ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

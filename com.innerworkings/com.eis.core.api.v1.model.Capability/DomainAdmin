@@ -1,0 +1,47 @@
+{
+  "refName" : "DomainAdmin",
+  "refKey" : "2bb52f2f045c3d57bd038903851b034c",
+  "displayName" : "Domain Admin",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Domain Admin" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1510248848649,
+    "createUser" : "Praveen Subba Rao",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "d9a17c95-44e3-4672-af30-5f34521039db",
+  "functionalPermissions" : [ {
+    "functionalDomainObjRef" : {
+      "refName" : "*",
+      "refId" : null,
+      "refKey" : "81f3ef2b96f9ab079e8e9e57ee721445",
+      "displayName" : null,
+      "dataDomain" : "app.cantata",
+      "type" : "com.eis.core.api.v1.model.FunctionalDomain",
+      "nullable" : false,
+      "internal" : false,
+      "parentId" : null,
+      "parentType" : null
+    },
+    "functionalAction" : "*",
+    "refName" : "*:*",
+    "displayName" : null
+  } ],
+  "dataDomains" : [ "com.innerworkings" ]
+}

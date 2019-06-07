@@ -1,0 +1,132 @@
+{
+  "refName" : "Mass-Distro-Report",
+  "refKey" : "799e4116c8dffeaeafc08ab23375f1f3",
+  "displayName" : "Mass-Distro-Report",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "Mass-Distro-Report" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1516220880905,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : 1518790665171,
+    "updateUser" : "Admin Innerworkings"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "62124c70-8255-4c3a-a63a-f82652b272da",
+  "inputs" : {
+    "name" : null,
+    "attributes" : {
+      "fromDateTime" : {
+        "id" : null,
+        "refName" : "fromDateTime",
+        "type" : "DateTime",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "DateTime of earliest matching Order",
+        "description" : null
+      },
+      "toDateTime" : {
+        "id" : null,
+        "refName" : "toDateTime",
+        "type" : "DateTime",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : true,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "DateTime of latest matching Order",
+        "description" : null
+      }
+    }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : {
+      "dataList" : {
+        "id" : null,
+        "refName" : "dataList",
+        "type" : "Object",
+        "value" : null,
+        "className" : null,
+        "selectValues" : [ ],
+        "selectValuesType" : null,
+        "selectValuesKey" : null,
+        "defaultValue" : null,
+        "required" : false,
+        "inheritable" : false,
+        "hidden" : false,
+        "displayOnFrontend" : true,
+        "label" : "Output",
+        "description" : null
+      }
+    }
+  },
+  "scriptContextObjects" : {
+    "salesOrderService" : {
+      "type" : "serviceBean",
+      "name" : "salesOrderService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "salesOrderService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentRequestService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentRequestService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentRequestService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "shipmentService" : {
+      "type" : "serviceBean",
+      "name" : "shipmentService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "shipmentService",
+      "parameterName" : null,
+      "parameters" : { }
+    },
+    "siteService" : {
+      "type" : "serviceBean",
+      "name" : "siteService",
+      "methodName" : null,
+      "modelName" : null,
+      "serviceName" : "siteService",
+      "parameterName" : null,
+      "parameters" : { }
+    }
+  },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}

@@ -1,0 +1,42 @@
+{
+  "refName" : "ExternalWebServiceCall",
+  "refKey" : "4704526cf2d8ec361416fc36d162bf0c",
+  "displayName" : "ExternalWebServiceCall",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "ExternalWebServiceCall" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1519680637299,
+    "createUser" : "Shopify Pabst",
+    "updateTs" : 1519684986249,
+    "updateUser" : "Shopify Pabst"
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "47f82c0a-8704-478e-af16-5a11ba426c9e",
+  "inputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "outputs" : {
+    "name" : null,
+    "attributes" : { }
+  },
+  "scriptContextObjects" : { },
+  "type" : "GENERIC",
+  "eventType" : null,
+  "scheduledActionTriggerRef" : null,
+  "dataDomains" : [ "com.innerworkings" ]
+}
