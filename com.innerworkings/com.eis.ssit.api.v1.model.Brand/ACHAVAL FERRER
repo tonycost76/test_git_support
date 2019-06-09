@@ -20,6 +20,7 @@
   "objRef" : false,
   "doNotAudit" : false,
   "logicallyDeleted" : false,
+  "create" : false,
   "violationsSet" : null,
   "dynAttributes" : { },
   "internal" : false,
@@ -53,7 +54,12 @@
       "postalCode" : null,
       "country" : "US",
       "countryName" : null,
-      "coordinates" : null,
+      "coordinates" : {
+        "type" : null,
+        "exact" : false,
+        "longitude" : 0.0,
+        "latitude" : 0.0
+      },
       "validated" : false,
       "validationCode" : null,
       "validationMessage" : null,
@@ -61,13 +67,11 @@
       "roles" : [ "billto", "shipto", "contact" ],
       "residentialStatus" : null
     },
-    "nameId" : null
+    "nameId" : null,
+    "altEmail" : "",
+    "altPhone" : ""
   },
-  "support" : null,
   "logo" : null,
-  "address" : null,
-  "url" : null,
-  "description" : null,
   "brandGroups" : [ {
     "refName" : "test",
     "refKey" : "43cb38a0f0fa627b5b2f8721ebc7bc5e",
@@ -90,10 +94,13 @@
     "objRef" : true,
     "doNotAudit" : false,
     "logicallyDeleted" : false,
+    "create" : false,
     "violationsSet" : null,
     "dynAttributes" : { },
     "internal" : false,
     "referenceData" : [ ],
-    "id" : "555a7395-7688-4e1d-8d4c-337727ade052"
-  } ]
+    "id" : "555a7395-7688-4e1d-8d4c-337727ade052",
+    "dataDomains" : [ "com.innerworkings" ]
+  } ],
+  "dataDomains" : [ "com.innerworkings" ]
 }
