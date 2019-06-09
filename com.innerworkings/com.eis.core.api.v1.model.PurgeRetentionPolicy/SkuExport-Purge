@@ -1,0 +1,73 @@
+{
+  "refName" : "SkuExport-Purge",
+  "refKey" : "de3c1d2ddebbf7b253c631a090f7ae4c",
+  "displayName" : "SkuExport-Purge",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "SkuExport-Purge" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1519246485142,
+    "createUser" : "Admin Innerworkings",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "d9a92f41-94f4-43b4-aadf-4e52aef203ae",
+  "evictionType" : "TIMEBASED",
+  "retentionTime" : {
+    "timePeriod" : 1,
+    "timePeriodScale" : "MINUTES"
+  },
+  "retentionCount" : 0,
+  "filterScriptRef" : null,
+  "batchSize" : 5000,
+  "runAsId" : "admin@innerworkings.com",
+  "purgePolicyAssociationSet" : [ {
+    "fromDataSource" : {
+      "dataSourceType" : "MAILBOX",
+      "dataBucketRef" : {
+        "refName" : "INWK-Item-FromOMS",
+        "refId" : null,
+        "refKey" : "b42fa20f5e0746615e0ab36a0f6a9b38",
+        "displayName" : null,
+        "dataDomain" : "com.innerworkings",
+        "type" : "com.eis.core.api.v1.model.Mailbox",
+        "nullable" : false,
+        "internal" : false,
+        "parentId" : null,
+        "parentType" : null
+      },
+      "tags" : null
+    },
+    "action" : "DELETE",
+    "toDataSource" : null,
+    "nameRegex" : ".*",
+    "metaData" : null
+  } ],
+  "scheduledActionTriggerRef" : {
+    "refName" : "skuexportpurge",
+    "refId" : null,
+    "refKey" : "0f94b06888042134a54b164c8deb2697",
+    "displayName" : null,
+    "dataDomain" : "com.innerworkings",
+    "type" : "com.eis.scheduler.api.v1.model.ScheduledActionTrigger",
+    "nullable" : false,
+    "internal" : false,
+    "parentId" : null,
+    "parentType" : null
+  },
+  "dataDomains" : [ "com.innerworkings" ]
+}
