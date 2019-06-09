@@ -20,6 +20,7 @@
   "objRef" : false,
   "doNotAudit" : false,
   "logicallyDeleted" : false,
+  "create" : false,
   "violationsSet" : null,
   "dynAttributes" : { },
   "internal" : false,
@@ -50,6 +51,7 @@
     "objRef" : true,
     "doNotAudit" : false,
     "logicallyDeleted" : false,
+    "create" : false,
     "violationsSet" : null,
     "dynAttributes" : { },
     "internal" : false,
@@ -66,11 +68,12 @@
     "contentType" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "updateDate" : 1539179956577,
     "createDate" : 1539179956576,
-    "isLink" : false,
-    "isTrackable" : false,
     "ownerUserProfileRefName" : "tcostanzo@innerworkings.com",
-    "sharedLinks" : [ ],
-    "processingState" : null
+    "processingState" : null,
+    "trackable" : false,
+    "link" : false,
+    "sharedLinksSortedByExpiration" : [ ],
+    "dataDomains" : [ "com.innerworkings" ]
   },
   "targetOutput" : "EXCEL",
   "category" : "General",
@@ -122,5 +125,6 @@
   "functionalDomain" : null,
   "fields" : [ ],
   "defaultFilter" : null,
-  "sorts" : [ ]
+  "sorts" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
 }

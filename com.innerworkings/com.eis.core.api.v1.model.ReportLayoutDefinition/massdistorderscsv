@@ -20,6 +20,7 @@
   "objRef" : false,
   "doNotAudit" : false,
   "logicallyDeleted" : false,
+  "create" : false,
   "violationsSet" : null,
   "dynAttributes" : { },
   "internal" : false,
@@ -349,5 +350,6 @@
   "functionalDomain" : null,
   "fields" : [ ],
   "defaultFilter" : null,
-  "sorts" : [ ]
+  "sorts" : [ ],
+  "dataDomains" : [ "com.innerworkings" ]
 }
