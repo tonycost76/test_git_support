@@ -12,8 +12,8 @@
   "auditInfo" : {
     "creationTs" : 1560174323654,
     "createUser" : "Tony Costanzo",
-    "updateTs" : null,
-    "updateUser" : null
+    "updateTs" : 1560177612853,
+    "updateUser" : "Tony Costanzo"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -33,8 +33,8 @@
     "firstName" : null,
     "lastName" : null,
     "primaryEmail" : "tonycost76@yahoo.com",
-    "altEmails" : [ ],
-    "altPhones" : [ ],
+    "altEmails" : [ "" ],
+    "altPhones" : [ "" ],
     "primaryPhone" : "6785923956",
     "fax" : null,
     "timezone" : null,
@@ -43,28 +43,28 @@
       "displayName" : null,
       "refName" : null,
       "addressNameField" : null,
-      "address1" : null,
+      "address1" : "306 Mill Run Dr",
       "address2" : null,
       "address3" : null,
-      "city" : null,
-      "state" : null,
+      "city" : "Bremen",
+      "state" : "GA",
       "stateName" : null,
-      "zip5" : null,
-      "zip4" : null,
+      "zip5" : "30110",
+      "zip4" : "",
       "postalCode" : null,
       "country" : "US",
       "countryName" : null,
       "coordinates" : {
         "type" : null,
         "exact" : false,
-        "latitude" : 0.0,
-        "longitude" : 0.0
+        "longitude" : 0.0,
+        "latitude" : 0.0
       },
       "validated" : false,
       "validationCode" : null,
       "validationMessage" : null,
       "lastValidationAttempt" : null,
-      "roles" : [ "contact", "shipto", "billto" ],
+      "roles" : [ "billto", "contact", "shipto" ],
       "residentialStatus" : null
     },
     "nameId" : null,
@@ -92,14 +92,14 @@
     "coordinates" : {
       "type" : null,
       "exact" : false,
-      "latitude" : 0.0,
-      "longitude" : 0.0
+      "longitude" : 0.0,
+      "latitude" : 0.0
     },
     "validated" : false,
     "validationCode" : null,
     "validationMessage" : null,
     "lastValidationAttempt" : null,
-    "roles" : [ "contact", "shipto", "billto" ],
+    "roles" : [ "billto", "contact", "shipto" ],
     "residentialStatus" : null
   },
   "dataDomains" : [ "com.innerworkings" ]
