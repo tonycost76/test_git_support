@@ -12,8 +12,8 @@
   "auditInfo" : {
     "creationTs" : 1560174390367,
     "createUser" : "Tony Costanzo",
-    "updateTs" : null,
-    "updateUser" : null
+    "updateTs" : 1560174489558,
+    "updateUser" : "Tony Costanzo"
   },
   "uiactions" : [ ],
   "forced" : false,

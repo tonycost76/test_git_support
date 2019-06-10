@@ -1,0 +1,32 @@
+{
+  "refName" : "test",
+  "refKey" : "43cb38a0f0fa627b5b2f8721ebc7bc5e",
+  "displayName" : "TEST",
+  "schemaVersion" : null,
+  "version" : null,
+  "current" : true,
+  "txId" : null,
+  "keywords" : [ "TEST" ],
+  "tags" : [ ],
+  "hashSum" : null,
+  "auditInfo" : {
+    "creationTs" : 1560174355617,
+    "createUser" : "Tony Costanzo",
+    "updateTs" : null,
+    "updateUser" : null
+  },
+  "uiactions" : [ ],
+  "forced" : false,
+  "objRef" : false,
+  "doNotAudit" : false,
+  "logicallyDeleted" : false,
+  "create" : false,
+  "violationsSet" : null,
+  "dynAttributes" : { },
+  "internal" : false,
+  "referenceData" : [ ],
+  "id" : "7ce99324-2697-46d1-a43b-6e262b9dd660",
+  "description" : "TEST",
+  "taxCodeString" : "TEST",
+  "dataDomains" : [ "com.innerworkings" ]
+}
