@@ -46,18 +46,7 @@
   "ignoreZeroTotalPriceSheets" : true,
   "accelerateConstraintsScript" : null,
   "routingGuideEnabled" : false,
-  "referredShippingRoutingGuide" : {
-    "refName" : "testguide",
-    "refId" : null,
-    "refKey" : "8acec17a01cabc40b093ca36a930ac1e",
-    "displayName" : "Shipping routing guide",
-    "dataDomain" : "com.mycompanyxyz",
-    "type" : "com.eis.core.api.v1.model.ShippingRoutingGuide",
-    "nullable" : false,
-    "internal" : false,
-    "parentId" : null,
-    "parentType" : null
-  },
+  "referredShippingRoutingGuide" : null,
   "siteClusterResolutionEnabled" : false,
   "dataDomains" : [ "com.innerworkings" ]
 }
