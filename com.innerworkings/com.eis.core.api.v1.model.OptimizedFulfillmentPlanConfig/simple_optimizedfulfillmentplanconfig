@@ -20,18 +20,19 @@
   "objRef" : false,
   "doNotAudit" : false,
   "logicallyDeleted" : false,
+  "create" : false,
   "violationsSet" : null,
   "dynAttributes" : { },
   "internal" : false,
   "referenceData" : [ ],
   "id" : "b0b08064-6f3e-479e-8e24-5de7f7801dc38",
   "requestResponseDirEntry" : {
-    "refName" : null,
+    "refName" : "home",
     "refId" : null,
-    "refKey" : null,
-    "displayName" : null,
-    "dataDomain" : null,
-    "type" : null,
+    "refKey" : "5fa82d07ba57a78afe8b2b8b47f80bff",
+    "displayName" : "home",
+    "dataDomain" : "com.innerworkings",
+    "type" : "com.eis.core.api.v1.model.FileSystemEntry",
     "nullable" : false,
     "internal" : false,
     "parentId" : null,
@@ -57,5 +58,6 @@
     "parentId" : null,
     "parentType" : null
   },
-  "siteClusterResolutionEnabled" : false
+  "siteClusterResolutionEnabled" : false,
+  "dataDomains" : [ "com.innerworkings" ]
 }
