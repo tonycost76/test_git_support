@@ -12,7 +12,7 @@
   "auditInfo" : {
     "creationTs" : 1591198843809,
     "createUser" : "GNC VDP",
-    "updateTs" : 1591201396033,
+    "updateTs" : 1591439638353,
     "updateUser" : "GNC VDP"
   },
   "uiactions" : [ ],
@@ -26,7 +26,7 @@
   "internal" : false,
   "referenceData" : [ ],
   "id" : "e48103a5-349c-4aac-a5be-49f3df1bb932",
-  "script" : "var clazz = new java.lang.Class.forName(\"com.eis.core.api.v1.model.Script\");\r\n\r\nvar connectionConfig = mongoToGitHelper.getGitConnectionConfig(\"com.gnc\");\r\nvar token = encryptionService.decryptText(\"5+pnjjCQUhl9aJOvOoMzOOlPr/N+OccyoBTNexKTmuDvYyzOPlPySNoLXB3bawLMaNf9mH5RovY=\", \"GitConfiguration\");\r\nconnectionConfig.setToken(token);\r\n\r\n//var history = gitDAO.getHistory(\"InventorySyncTestScript\", \"com.gnc\", clazz, \"uat\", 10, connectionConfig);\r\nvar history = gitDAO.getHistory(\"testScript1\", \"com.gnc\", clazz, \"uat\", 10, connectionConfig);\r\nhistory;",
+  "script" : "var clazz = new java.lang.Class.forName(\"com.eis.core.api.v1.model.Script\");\r\n\r\nvar connectionConfig = mongoToGitHelper.getGitConnectionConfig(\"com.gnc\");\r\nvar token = encryptionService.decryptText(\"5+pnjjCQUhl9aJOvOoMzOOlPr/N+OccyoBTNexKTmuDvYyzOPlPySNoLXB3bawLMaNf9mH5RovY=\", \"GitConfiguration\");\r\nconnectionConfig.setToken(token);\r\nvar token = encryptionService.encryptText(\"9ffcc0aa0666774c9476203175a1d3c6495af63b\", \"GitConfiguration\");\r\ntoken;\r\n\r\n//var history = gitDAO.getHistory(\"InventorySyncTestScript\", \"com.gnc\", clazz, \"uat\", 10, connectionConfig);\r\n//var history = gitDAO.getHistory(\"testScript1\", \"com.gnc\", clazz, \"uat\", 10, connectionConfig);\r\n//history;",
   "compensateScript" : null,
   "language" : null,
   "type" : {
