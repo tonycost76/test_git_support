@@ -6,13 +6,13 @@
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "UAT_Active", "ASN-CSV-MaptoCanonical", "FilePortalVendors", "FilePortalVendor" ],
+  "keywords" : [ "UAT_Active", "test", "ASN-CSV-MaptoCanonical", "FilePortalVendors", "FilePortalVendor" ],
   "tags" : [ "UAT_Active", "FilePortalVendors" ],
   "hashSum" : null,
   "auditInfo" : {
     "creationTs" : 1536693495110,
     "createUser" : "GNC VDP",
-    "updateTs" : 1565954211229,
+    "updateTs" : 1592236233874,
     "updateUser" : "GNC VDP"
   },
   "uiactions" : [ ],
