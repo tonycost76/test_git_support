@@ -6,13 +6,13 @@
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ "DS-123", "test-123", "DS-99999", "DS-456", "DS-1234", "MASTER-123", "etst" ],
+  "keywords" : [ "DS-123", "test", "test-123", "DS-99999", "DS-456", "DS-1234", "MASTER-123", "etst" ],
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
     "creationTs" : 1536915698426,
     "createUser" : "Lakshmi Ashok Kumar",
-    "updateTs" : 1592948787373,
+    "updateTs" : 1592948809847,
     "updateUser" : "GNC VDP"
   },
   "uiactions" : [ ],
