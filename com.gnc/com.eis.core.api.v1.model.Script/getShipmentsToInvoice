@@ -6,14 +6,14 @@
   "version" : null,
   "current" : true,
   "txId" : null,
-  "keywords" : [ ],
+  "keywords" : [ "DS-123", "test-123", "DS-99999", "DS-456", "DS-1234" ],
   "tags" : [ ],
   "hashSum" : null,
   "auditInfo" : {
     "creationTs" : 1536915698426,
     "createUser" : "Lakshmi Ashok Kumar",
-    "updateTs" : 1548240834913,
-    "updateUser" : "Lakshmi Ashok Kumar"
+    "updateTs" : 1592948594164,
+    "updateUser" : "GNC VDP"
   },
   "uiactions" : [ ],
   "forced" : false,
@@ -26,7 +26,7 @@
   "internal" : false,
   "referenceData" : [ ],
   "id" : "9a6a5345-1956-496a-8c6b-a4ff329c5b7d",
-  "script" : "var log = org.slf4j.LoggerFactory.getLogger(\"getShipmentsToInvoice:\");\r\nfunction getShipmentsToInvoice() {\r\n    var queryString = \"shipmentStatus:SHIPPED&&dynAttributes.vendorType:Form Portal\";\r\n\r\n    var batchSize = 25;\r\n    var offset = 0;\r\n    var numShipments = shipmentService.getSize(queryString);\r\n    log.info(\"Number Shipped Shipments:\"+numShipments);\r\n    var shipment = null;\r\n    while (offset < numShipments) {    \r\n        try {\r\n            var shipments = shipmentService.getList(offset, batchSize, queryString, null, null);\r\n            \r\n            for(var x = 0; x < shipments.size(); x++) {\r\n                shipment = shipments.get(x);\r\n                \r\n                java.lang.System.out.println(\"Shipment Number:\"+shipment.getShipmentNumber());\r\n\r\n                var mailbox = scriptUtils.getMailbox(\"Invoice-ShipmentsToInvoice\");\r\n                scriptUtils.createObjectJSONMailboxEntry(mailbox,shipment, \"Invoice Shipment:\"+shipment.getShipmentNumber(), \"invoices@gnc.com\", \"shipments@gnc.com\"); \r\n\r\n            }        \r\n            \r\n        } catch(e) {\r\n            var errorMessage = \"Error creating shipment.\";\r\n             \r\n            if(shipment !== null) {\r\n                errorMessage = errorMessage + \"Shipment:\"+shipment.getShipmentNumber();\r\n                log.error(\"Could get Shipment:\"+shipment.getShipmentNumber(), e.javaException);\r\n                taskHelper.notifyAndCreateTask(\r\n                            errorMessage+\":\"+java.lang.System.nanoTime(),\r\n                            errorMessage+\".Invoice could not be created.\",\r\n                            errorMessage+\".Invoice could not be created.\",\r\n                            \"Invoice Generation Failure\", \"com.petsmart\",\r\n                            \"Invoice Generation Failure\", \"invoice-generation-failure\", \r\n                            \"GNC CSR\"); \r\n            }\r\n            continue;\r\n          \r\n        } finally {\r\n            offset = offset + batchSize; \r\n        }\r\n    }\r\n    java.lang.System.out.println(\"Exiting getShipmentsToInvoice\");\r\n    \r\n}\r\n\r\ngetShipmentsToInvoice();",
+  "script" : "//THIS IS A TEST\r\n//TEST2\r\n// IS THIS CHECKING INTO MASTER\r\nvar log = org.slf4j.LoggerFactory.getLogger(\"getShipmentsToInvoice:\");\r\nfunction getShipmentsToInvoice() {\r\n    var queryString = \"shipmentStatus:SHIPPED&&dynAttributes.vendorType:Form Portal\";\r\n\r\n    var batchSize = 25;\r\n    var offset = 0;\r\n    var numShipments = shipmentService.getSize(queryString);\r\n    log.info(\"Number Shipped Shipments:\"+numShipments);\r\n    var shipment = null;\r\n    while (offset < numShipments) {    \r\n        try {\r\n            var shipments = shipmentService.getList(offset, batchSize, queryString, null, null);\r\n            \r\n            for(var x = 0; x < shipments.size(); x++) {\r\n                shipment = shipments.get(x);\r\n                \r\n                java.lang.System.out.println(\"Shipment Number:\"+shipment.getShipmentNumber());\r\n\r\n                var mailbox = scriptUtils.getMailbox(\"Invoice-ShipmentsToInvoice\");\r\n                scriptUtils.createObjectJSONMailboxEntry(mailbox,shipment, \"Invoice Shipment:\"+shipment.getShipmentNumber(), \"invoices@gnc.com\", \"shipments@gnc.com\"); \r\n\r\n            }        \r\n            \r\n        } catch(e) {\r\n            var errorMessage = \"Error creating shipment.\";\r\n             \r\n            if(shipment !== null) {\r\n                errorMessage = errorMessage + \"Shipment:\"+shipment.getShipmentNumber();\r\n                log.error(\"Could get Shipment:\"+shipment.getShipmentNumber(), e.javaException);\r\n                taskHelper.notifyAndCreateTask(\r\n                            errorMessage+\":\"+java.lang.System.nanoTime(),\r\n                            errorMessage+\".Invoice could not be created.\",\r\n                            errorMessage+\".Invoice could not be created.\",\r\n                            \"Invoice Generation Failure\", \"com.petsmart\",\r\n                            \"Invoice Generation Failure\", \"invoice-generation-failure\", \r\n                            \"GNC CSR\"); \r\n            }\r\n            continue;\r\n          \r\n        } finally {\r\n            offset = offset + batchSize; \r\n        }\r\n    }\r\n    java.lang.System.out.println(\"Exiting getShipmentsToInvoice\");\r\n    \r\n}\r\n\r\ngetShipmentsToInvoice();",
   "compensateScript" : null,
   "language" : null,
   "type" : {
@@ -122,7 +122,7 @@
     "auditInfo" : {
       "creationTs" : 1531337454496,
       "createUser" : "Paul Ramnarain",
-      "updateTs" : 1591201352156,
+      "updateTs" : 1592331735973,
       "updateUser" : "GNC VDP"
     },
     "uiactions" : [ ],
@@ -140,6 +140,8 @@
       "adapter1" : "adapter1",
       "adapter2" : "adapter2",
       "aucombytecodeopencsv" : "au.com.bytecode.opencsv",
+      "comamazonawsmws" : "com.amazonaws.mws",
+      "comamazonawsmwsmodel" : "com.amazonaws.mws.model",
       "comcsvreader" : "com.csvreader",
       "comctcwstxsr" : "com.ctc.wstx.sr",
       "comctcwstxstax" : "com.ctc.wstx.stax",
@@ -216,6 +218,7 @@
       "javalangreflect" : "java.lang.reflect",
       "javamath" : "java.math",
       "javanet" : "java.net",
+      "javasecurity" : "java.security",
       "javatext" : "java.text",
       "javatime" : "java.time",
       "javatimeformat" : "java.time.format",
